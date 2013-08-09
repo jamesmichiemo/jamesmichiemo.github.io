@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Markdown | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octopress with Dropbox and Nocs]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc/"/>
+    <updated>2013-02-17T01:23:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc</id>
+    <content type="html"><![CDATA[<p>Inspired by a tip from <a href="http://www.drastudio.com">Oscar Cortez</a>, one of my instructors at <a href="http://www.fullsail.edu">Full Sail University</a>, I decided to host my <a href="http://octopress.org">Octopress</a> locally on <a href="http://www.dropbox.com">Dropbox</a>. I found this setup to be a great idea for editing on mobile devices, because with our repo connected to Dropbox, we are able to make changes to Octopress wherever Dropbox access is available.</p>
+
+<p><img src="http://i.imgur.com/tSVfJ6v.png?1" alt="Octopress in Dropbox" /></p>
+
+<p>I&rsquo;m actually typing this blog post with a text editor on my iPhone. The app that I&rsquo;m using is called <a href="http://www.wisp.com/nocs/">Nocs</a>. It&rsquo;s a text editor that integrates well with both Dropbox and the <a href="http://daringfireball.net/projects/markdown/">Markdown</a> format that Octopress uses to publish with.</p>
+
+<p><img src="http://i.imgur.com/nooAe2Z.png?1" alt="Editting with Nocs" /></p>
+
+<p>In the Nocs app, I&rsquo;m able to navigate and edit the Octopress directory through Dropbox with ease.</p>
+
+<p><img src="http://i.imgur.com/XV1xj25.png?1" alt="Navigating wit Nocs" /></p>
+
+<p>The Dropbox/Nocs combo allows me to write anywhere with my iPhone. Then once my post is ready to go, all I need to do is push my Octopress repo up in <a href="" title="http://en.wikipedia.org/wiki/Terminal_(OS_X)">Terminal</a> using</p>
+
+<pre><code>$ rake generate</code></pre>
+
+
+<p>and</p>
+
+<pre><code>$ rake deploy</code></pre>
+
+
+<p>Easy.</p>
+
+<p>Both apps are available for free at the <a href="https://itunes.apple.com/us/genre/ios/id36?mt=8">App Store</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

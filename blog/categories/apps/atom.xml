@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: apps | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/apps/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google I/O 2013]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013/"/>
+    <updated>2013-05-15T11:00:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013</id>
+    <content type="html"><![CDATA[<p>Watch the Google I/O Keynote Live
+May 15-17</p>
+
+<div class="video-container">
+    <iframe allowTransparency=true src="https://developers.google.com/events/announce/googleio2013/?cn=James+Michiemo&cu=jamesmichiemo.github.io&w=800&h=540" style="border:0;box-shadow:0 0px 20px #888;-webkit-box-shadow:0 0px 20px #888;-khtml-box-shadow:0 0px 20px #888;-moz-box-shadow:0 0px 20px #888;-ms-box-shadow:0 0px 20px #888;-o-box-shadow:0 0px 20px #888;width:800px;height:540px"></iframe>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Studying with Anki Flashcards]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/18/anki/"/>
+    <updated>2013-02-18T10:21:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/18/anki</id>
+    <content type="html"><![CDATA[<p>Just the other week, I discovered an awesome flashcard app that helps with studying. The app is called <a href="http://ankisrs.net">Anki</a> and the best thing about it is that it&rsquo;s <a href="http://en.m.wikipedia.org/wiki/Cross-platform">cross-platform</a> compatible and <a href="http://en.m.wikipedia.org/wiki/Open_source">open source</a>. It&rsquo;s a great app for retaining anything you have trouble remembering.</p>
+
+<p><img src="http://i.imgur.com/R7kUt3T.png?1" alt="Anki Logo" /></p>
+
+<p>Anki actually stands for &ldquo;memorizing&rdquo; in Japanese, and that is basically what this app specializes in assisting with. By using a <a href="http://en.m.wikipedia.org/wiki/Spaced_repetition">spaced repetition</a> scheduling system for arranging the order of the flashcards, users are better able to focus their time more efficiently, balancing between the study time spent on learning new material and reviewing old material that&rsquo;s at risk of being forgotten.</p>
+
+<p>This system is very similar to the popular <a href="http://www.pimsleur.com/The-Pimsleur-Method">Pimsluer method</a> used for language acquisition. It&rsquo;s a proven technique that&rsquo;s been used for several years.</p>
+
+<p>I&rsquo;ve already begun to use it to familiarize myself with what I&rsquo;m learning in the Physics class that I&rsquo;m taking right now. By the time each lecture is through, I have a full stack of flashcards ready to run through daily before my next exam.</p>
+
+<p>It&rsquo;s a neat app but what blows my mind about Anki is the accessibility of the flashcards you create. Once you sign up for a free account with Anki, you&rsquo;ll have the ability to sync your flashcard collection with almost any computer device with an internet connection. This includes cell phones, Macs, Android devices, Windows and even Linux machines. There&rsquo;s even a client version for the Nintendo DS. It&rsquo;s the perfect anywhere anytime app.</p>
+
+<p>In my opinion, there isn&rsquo;t a better productivity app out there for studying. Anki is free to download, except for the iPhone app which goes for $24.99. I bought the app full price and it was worth every penny. Try it out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octopress with Dropbox and Nocs]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc/"/>
+    <updated>2013-02-17T01:23:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc</id>
+    <content type="html"><![CDATA[<p>Inspired by a tip from <a href="http://www.drastudio.com">Oscar Cortez</a>, one of my instructors at <a href="http://www.fullsail.edu">Full Sail University</a>, I decided to host my <a href="http://octopress.org">Octopress</a> locally on <a href="http://www.dropbox.com">Dropbox</a>. I found this setup to be a great idea for editing on mobile devices, because with our repo connected to Dropbox, we are able to make changes to Octopress wherever Dropbox access is available.</p>
+
+<p><img src="http://i.imgur.com/tSVfJ6v.png?1" alt="Octopress in Dropbox" /></p>
+
+<p>I&rsquo;m actually typing this blog post with a text editor on my iPhone. The app that I&rsquo;m using is called <a href="http://www.wisp.com/nocs/">Nocs</a>. It&rsquo;s a text editor that integrates well with both Dropbox and the <a href="http://daringfireball.net/projects/markdown/">Markdown</a> format that Octopress uses to publish with.</p>
+
+<p><img src="http://i.imgur.com/nooAe2Z.png?1" alt="Editting with Nocs" /></p>
+
+<p>In the Nocs app, I&rsquo;m able to navigate and edit the Octopress directory through Dropbox with ease.</p>
+
+<p><img src="http://i.imgur.com/XV1xj25.png?1" alt="Navigating wit Nocs" /></p>
+
+<p>The Dropbox/Nocs combo allows me to write anywhere with my iPhone. Then once my post is ready to go, all I need to do is push my Octopress repo up in <a href="" title="http://en.wikipedia.org/wiki/Terminal_(OS_X)">Terminal</a> using</p>
+
+<pre><code>$ rake generate</code></pre>
+
+
+<p>and</p>
+
+<pre><code>$ rake deploy</code></pre>
+
+
+<p>Easy.</p>
+
+<p>Both apps are available for free at the <a href="https://itunes.apple.com/us/genre/ios/id36?mt=8">App Store</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

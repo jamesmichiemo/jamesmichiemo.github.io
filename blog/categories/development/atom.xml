@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: development | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google I/O 2013]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013/"/>
+    <updated>2013-05-15T11:00:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013</id>
+    <content type="html"><![CDATA[<p>Watch the Google I/O Keynote Live
+May 15-17</p>
+
+<div class="video-container">
+    <iframe allowTransparency=true src="https://developers.google.com/events/announce/googleio2013/?cn=James+Michiemo&cu=jamesmichiemo.github.io&w=800&h=540" style="border:0;box-shadow:0 0px 20px #888;-webkit-box-shadow:0 0px 20px #888;-khtml-box-shadow:0 0px 20px #888;-moz-box-shadow:0 0px 20px #888;-ms-box-shadow:0 0px 20px #888;-o-box-shadow:0 0px 20px #888;width:800px;height:540px"></iframe>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

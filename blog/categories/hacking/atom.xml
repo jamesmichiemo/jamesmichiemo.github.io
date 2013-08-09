@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hacking | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Creating Snippets]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/19/snippets/"/>
+    <updated>2013-02-19T06:50:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/19/snippets</id>
+    <content type="html"><![CDATA[<p>Do you find yourself repeatedly looking up the same code and copy/pasting from project to project?</p>
+
+<p>Stop torturing yourself and get a text editor that uses snippets.</p>
+
+<p>Code snippets are a great way to increase your workflow productivity, and in <a href="http://www.sublimetext.com/">Sublime Text</a>, making use of them is easy and simple. I highly recommend snippets to anyone who wants to become a faster coder. I should warn you though, hacks won&rsquo;t instantly make you a &ldquo;better&rdquo; coder. True skills come with practice.</p>
+
+<h2>Getting Started</h2>
+
+<p>So? Where do we begin?</p>
+
+<p>First, we need a text editor worth bragging about. I love Sublime Text. <a href="http://www.sublimetext.com/2">Download it.</a> It&rsquo;s what I&rsquo;ll be using in this post to show how snippets work. There are other text editors like <a href="http://macromates.com/">Textmate</a> that work great with snippets, but I prefer Sublime Text.</p>
+
+<p><img src="http://c758482.r82.cf2.rackcdn.com/sublime_text_icon_2181.png" alt="Sublime Text" /></p>
+
+<p>In Sublime Text, a snippet is a block of code that&rsquo;s inserted into your working document when triggered. An example would be typing in ‘html’ and hitting the Tab key afterwards to trigger the following output below within an html document.(FYI:this default snippet won&rsquo;t work in any other document format)</p>
+
+<p>```html
+<html>
+<head></p>
+
+<pre><code>&lt;title&gt;&lt;/title&gt;
+</code></pre>
+
+<p></head>
+<body></p>
+
+<p></body>
+</html>
+```</p>
+
+<p>Ok, not very exciting, but what if I told you that you can create a snippet anyway you want, using ANY kind of text to trigger ANY size block of code of your choosing. Oh and you can place any number of cursors anywhere within that block to type multiple code values at the same time.</p>
+
+<p>Yea I know.</p>
+
+<p>Sublime Text. Download. Install. Open.</p>
+
+<h2>New Game</h2>
+
+<p>Now that we have Sublime Text up and running, we&rsquo;re going to go ahead and open up the snippet template.</p>
+
+<p>In your Sublime Text menu, search within the &ldquo;Tools&rdquo; dropdown and select &ldquo;New Snippet&hellip;&rdquo;. You should be presented with a template that looks like this:</p>
+
+<p>```xml
+<snippet></p>
+
+<pre><code>&lt;content&gt;&lt;![CDATA[
+</code></pre>
+
+<p>Hello, ${1:this} is a ${2:snippet}.
+]]&gt;</content></p>
+
+<pre><code>&lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;
+&lt;!-- &lt;tabTrigger&gt;hello&lt;/tabTrigger&gt; --&gt;
+&lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;
+&lt;!-- &lt;scope&gt;source.python&lt;/scope&gt; --&gt;
+</code></pre>
+
+<p></snippet>
+```</p>
+
+<p>Nice. Now we have ourselves a fancy xml script to modify with help comments. Self-explanatory, right?</p>
+
+<p>For those of you who can figure this out at first glance, I salute you.</p>
+
+<p>The rest may read on.</p>
+
+<h2>How to Play</h2>
+
+<p>Ok. Let&rsquo;s break this down line by line.</p>
+
+<p>Starting at line number one, we have our snippet bracket which contains the entirety of our code.</p>
+
+<p>In the next line, the content bracket nested within the snippet bracket holds the block of code that we want to output when triggered. Within the block, ${1:this} and ${2:snippet} are used to point to where the cursor should be placed sequentially after each time the tab button is hit.</p>
+
+<p>Afterwards, we have comments stating that we have the option to set the tabTrigger to trigger the snippet and also the option to indicate the format where the snippet is able to trigger.</p>
+
+<p>I&rsquo;m guessing that anyone is free to not use the code that is commented out, but for the purposes of creating a fully functional snippet, the tabTrigger and scope elements are NOT optional. We want to specify how our snippet is triggered and where our triggers are able to function.</p>
+
+<h2>Practice Mode</h2>
+
+<p>As an example, we&rsquo;ll use one of the <a href="https://github.com/jamesmichiemo/CSS-sublimetext-snippets">Z-Snippets</a> that I created for CSS to compare with the &ldquo;New Snippet&hellip;&rdquo; template.</p>
+
+<p>Text-Shadow snippet:</p>
+
+<p>```xml
+<snippet></p>
+
+<pre><code>&lt;content&gt;&lt;![CDATA[-webkit-text-shadow: ${1:}px ${2:} #${3:}; 
+</code></pre>
+
+<p>-moz-text-shadow: ${1:}px ${2:} #${3:};
+text-shadow: ${1:}px ${2:} #${3:};
+]]&gt;</content></p>
+
+<pre><code>&lt;tabTrigger&gt;ztext-shadow&lt;/tabTrigger&gt;
+&lt;scope&gt;text.html, source.css, source.less, source.scss, source.stylus&lt;/scope&gt;
+</code></pre>
+
+<p></snippet>
+```</p>
+
+<p>Let&rsquo;s look at the code that I replaced in the template.</p>
+
+<p>First, I took out the <code>Hello, ${1:this} is a ${2:snippet}.</code> text within the content element and replaced it with the CSS code that I want to output if I trigger it. Note that the text must be placed within the <code>![CDATA[ ]]</code> brackets for the code to work properly. And for the sake of convenience, <code>${1:} ${2:}</code> and <code>${3:}</code> are used to type in the appropriate CSS values for multiple vendor prefixes simultaneously.</p>
+
+<p>Next, I replaced the <code>hello</code> text with my own trigger text. Now with the text, <code>ztext-shadow</code>, placed within the tabTrigger element, the snippet will only trigger after pressing tab at the end of any ztext-shadow.</p>
+
+<p>Lastly, we must identify which formats to allow the snippet to be used in. A CSS snippet would only be appropriate within file formats that are able to use CSS, such as HTML and LESS. Some snippets may clutter your autocomplete lists, if you&rsquo;re not careful enough to label your scope correctly. It&rsquo;s not a difficult task. I&rsquo;ve found that almost every format&rsquo;s scope is identified by typing &ldquo;source.&rdquo; before the file&rsquo;s extension, with the exception of HTML which uses text. as a prefix.</p>
+
+<h2>Let&rsquo;s Play</h2>
+
+<p>You&rsquo;re free to create a snippet of your own just like the one I made for myself.</p>
+
+<p>Once you&rsquo;ve made your own snippet script, you want to save your xml file over to the Sublime Text Package Folder. You can find where it is with Browse Packages under Preferences.</p>
+
+<p>Snippets should start working immediately after saving. It&rsquo;s a simple code modification, but if it doesn&rsquo;t work out, you&rsquo;re probably better off learning <a href="http://docs.emmet.io/">Emmet coding</a> to start off with.</p>
+
+<p>I&rsquo;ll be sure to expand on more coding techiniques in future posts as I learn more.</p>
+
+<p>Enjoy!</p>
+]]></content>
+  </entry>
+  
+</feed>

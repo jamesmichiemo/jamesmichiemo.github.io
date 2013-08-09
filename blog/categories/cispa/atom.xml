@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CISPA | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/cispa/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[War on Privacy]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/04/22/war-on-privacy/"/>
+    <updated>2013-04-22T00:21:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/04/22/war-on-privacy</id>
+    <content type="html"><![CDATA[<p>Nowadays, information rules the world. Personal data has become THE commodity for many of the enterprises we rely on everyday on the web, and our privacy is rarely ever considered when such data is exchanged. How do we even let such things happen in a world where identity is so important? For that matter, why should we even care what happens to our personal data?</p>
+
+<p><img src="http://www.conservativedailynews.com/wp-content/uploads/2013/02/cispa-passes-house.jpg" alt="CISPA" /></p>
+
+<p>You should care because it&rsquo;s your info. It&rsquo;s not okay for agencies to pass along your private information without consent. I&rsquo;m sure many of you are aware that CISPA needs to be stopped but this privacy war will not end with this bill.</p>
+
+<p>Sure, go ahead and blackout or whatever. Spread awareness. Let everyone know that their privacy is at risk of being abused.</p>
+
+<p>When you&rsquo;re done. Take action. Direct action. I recommend that everyone take their privacy into their own hands and familiarize themselves with basic cryptography.</p>
+
+<p>Redditor <a href="http://www.reddit.com/user/postmodern">postmodern</a>&rsquo;s list of privacy tools is a great start for anyone who values secure communication.</p>
+
+<p>Here&rsquo;s a copypasta:</p>
+
+<hr />
+
+<blockquote><p>Don&rsquo;t <em>ask</em> your government for your Privacy, <strong>take it back</strong>:</p>
+
+<ul>
+<li>Browser Privacy: <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a href="http://adblockplus.org/en/firefox">AdBlock Plus</a> + <a href="http://easylist.adblockplus.org/en/">EasyList</a>, <a href="http://www.ghostery.com/">Ghostery</a>, <a href="http://noscript.net/">NoScript</a> (FireFox), <a href="https://chrome.google.com/webstore/detail/notscripts/odjhifogjcknibkahlpidmdajjpkkcfn?hl=en">NotScript</a> (Chrome)</li>
+<li>VPNs: <a href="http://btguard.com/">BTGuard</a> (Canada), <a href="http://www.itshidden.eu/">ItsHidden</a> (Africa), <a href="https://ipredator.se/">Ipredator</a> (Sweden), <a href="http://faceless.me/">Faceless.me</a> (Cyprus / Netherlands)</li>
+<li>Internet Anonymization: <a href="https://www.torproject.org/">Tor</a>, <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser Bundle</a>, <a href="http://i2p2.de/">I2P</a></li>
+<li>Disk Encryption: <a href="http://www.truecrypt.org/">TrueCrypt</a> (Windows / OSX / Linux), <a href="http://support.apple.com/kb/ht4790">File Vault</a> (Mac).</li>
+<li>File/Email Encryption: <a href="https://www.gpgtools.org/">GPGTools</a> + <a href="https://www.gpgtools.org/gpgmail/index.html">GPGMail</a> (Mac),  <a href="http://www.enigmail.net/home/index.php">Enigmail</a> (Windows / OSX / Linux)</li>
+<li>IM Encryption: <a href="http://www.pidgin.im/">Pidgin</a> + <a href="http://www.cypherpunks.ca/otr/">Pidgin OTR</a></li>
+<li>IM/Voice Encryption: <a href="http://mumble.sourceforge.net/">Mumble</a>, <a href="https://jitsi.org/">Jitsi</a></li>
+<li>SMS/Voice Encryption: <a href="http://www.whispersystems.org/">WhisperSystems</a>, <a href="https://silentcircle.com/">Silent Circle</a> ($$$)</li>
+<li>Google Alternative: <a href="https://duckduckgo.com/">DuckDuckGo</a></li>
+<li>Digital P2P Currency: <a href="http://bitcoin.org/">BitCoin</a></li>
+<li>Live Anonymous/Secure Linux: <a href="https://tails.boum.org/">TAILS Linux</a></li>
+</ul>
+
+
+<p>If you have any problems installing or using the above software, please contact the projects. They would love to get feedback and help you use their software.</p>
+
+<p>Have no clue what Cryptography is or why you should care? Checkout the
+<a href="http://weise7.org/tmp/cryptobook-v1.1.pdf">Crypto Party Handbook</a>
+or the <a href="https://ssd.eff.org/">EFF&rsquo;s Surveillance Self-Defense Project</a>.</p>
+
+<p>Just want some simple tips? Checkout
+<a href="https://www.eff.org/wp/effs-top-12-ways-protect-your-online-privacy">EFF&rsquo;s Top 12 Ways to Protect Your Online Privacy</a>.</p></blockquote>
+
+<hr />
+
+<p>True privacy necessitates that you act for yourself instead of waiting for legistation to pass. It&rsquo;s a nice gesture to petition the politicians that have already been bought, but in the long run it&rsquo;s really up to you to keep your personal data from being stolen.</p>
+
+<p>Don&rsquo;t wait for permission from authority or beg some higher power to protect your own information. Be proactive!</p>
+]]></content>
+  </entry>
+  
+</feed>

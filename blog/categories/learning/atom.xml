@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: learning | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Studying with Anki Flashcards]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/18/anki/"/>
+    <updated>2013-02-18T10:21:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/18/anki</id>
+    <content type="html"><![CDATA[<p>Just the other week, I discovered an awesome flashcard app that helps with studying. The app is called <a href="http://ankisrs.net">Anki</a> and the best thing about it is that it&rsquo;s <a href="http://en.m.wikipedia.org/wiki/Cross-platform">cross-platform</a> compatible and <a href="http://en.m.wikipedia.org/wiki/Open_source">open source</a>. It&rsquo;s a great app for retaining anything you have trouble remembering.</p>
+
+<p><img src="http://i.imgur.com/R7kUt3T.png?1" alt="Anki Logo" /></p>
+
+<p>Anki actually stands for &ldquo;memorizing&rdquo; in Japanese, and that is basically what this app specializes in assisting with. By using a <a href="http://en.m.wikipedia.org/wiki/Spaced_repetition">spaced repetition</a> scheduling system for arranging the order of the flashcards, users are better able to focus their time more efficiently, balancing between the study time spent on learning new material and reviewing old material that&rsquo;s at risk of being forgotten.</p>
+
+<p>This system is very similar to the popular <a href="http://www.pimsleur.com/The-Pimsleur-Method">Pimsluer method</a> used for language acquisition. It&rsquo;s a proven technique that&rsquo;s been used for several years.</p>
+
+<p>I&rsquo;ve already begun to use it to familiarize myself with what I&rsquo;m learning in the Physics class that I&rsquo;m taking right now. By the time each lecture is through, I have a full stack of flashcards ready to run through daily before my next exam.</p>
+
+<p>It&rsquo;s a neat app but what blows my mind about Anki is the accessibility of the flashcards you create. Once you sign up for a free account with Anki, you&rsquo;ll have the ability to sync your flashcard collection with almost any computer device with an internet connection. This includes cell phones, Macs, Android devices, Windows and even Linux machines. There&rsquo;s even a client version for the Nintendo DS. It&rsquo;s the perfect anywhere anytime app.</p>
+
+<p>In my opinion, there isn&rsquo;t a better productivity app out there for studying. Anki is free to download, except for the iPhone app which goes for $24.99. I bought the app full price and it was worth every penny. Try it out.</p>
+]]></content>
+  </entry>
+  
+</feed>

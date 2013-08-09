@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: app | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/app/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Cathode App for Mac]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/22/cathode/"/>
+    <updated>2013-02-22T20:20:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/22/cathode</id>
+    <content type="html"><![CDATA[<p>For those of you who like to get your hands dirty in the shell, I want to show you a really cool Mac app that&rsquo;s made by <a href="http://www.secretgeometry.com/">Secret Geometry</a>.</p>
+
+<p><img src="http://www.secretgeometry.com/media/screenshot13.jpg" alt="Cathode screens" /></p>
+
+<p>The <a href="http://www.secretgeometry.com/apps/cathode/">Cathode</a> app is an emulator that runs Terminal in a retro style that closely resembles cathode monitors from the past. It&rsquo;s a fun Terminal alternative for anyone who likes to apply unique themes to their favorite apps. All of the themes that come with Cathode are incredibly detailed and take their authentic looking styles from several different computer eras.</p>
+
+<p>The older crowd will definitely appreciate the app for all the flicker and noise effects that give a nostalgic feel to the Terminal experience. For others, it&rsquo;s a nice to have novelty app that looks like an old school tool for hacking.</p>
+
+<p>Overall, it&rsquo;s a wonderful app that&rsquo;s stable, reliable, and fun to use. I like to have it open at all times in case I need to use the command line for anything.</p>
+
+<p>Cathode is free to evaluate but it&rsquo;s $9.99 for the full version. Go ahead and give it a try.</p>
+]]></content>
+  </entry>
+  
+</feed>

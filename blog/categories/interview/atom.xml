@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: interview | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/interview/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Bootcamp: The Interview]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/19/dev-interview/"/>
+    <updated>2013-02-19T10:15:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/19/dev-interview</id>
+    <content type="html"><![CDATA[<p>Today was my first Skype interview ever. I was punctual and armed with a pen, pad and a positive attitude. I had an idea of what to expect from reading several other blogs from other Dev Bootcamp candidates, but somehow I was still caught off guard.</p>
+
+<p>Once the Skype tone turned on, I choked. My blank mind struggled to find words to express simple phrases like &ldquo;Hi&rdquo; and &ldquo;How are you?&rdquo; to maintain a decent conversation flow.</p>
+
+<p>The interview had already begun, and I was greeted by Karim Bishay. After introducing myself, we shot a few questions back and forth about the Dev Bootcamp program.</p>
+
+<p>Soon after we got settled in, he finally threw down the gauntlet and gave me a puzzle to walk him through. I was already somewhat familiar with the puzzle but I didn&rsquo;t say anything because I still had no idea what the answer was even after several minutes passing. It was challenging only because my brain moves so much faster than my ability to explain things. Maintaining both focus and communication was the real challenge.</p>
+
+<p>After solving the puzzle, Karim asked the big question. The question was &ldquo;Why?&rdquo; That was the one question I really wanted to answer. I simply gave him my own personal definition of success and explained how my actions aligned with my goals.</p>
+
+<p>When I finished my explanation, he looked way more satisfied with my &ldquo;Why?&rdquo; answer than with my solution to the puzzle.</p>
+
+<p>Overall, I feel really good about my prospects. It was a great experience to get a feel for the big interviews that we have to conquer for a respectable salary.</p>
+
+<p>I look forward to the next one.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dev Bootcamp]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/02/17/devboot/"/>
+    <updated>2013-02-17T12:34:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/02/17/devboot</id>
+    <content type="html"><![CDATA[<p>Ahhh! Right now I am super nervous about my <a href="http://Skype.com">Skype</a> interview with <a href="http://devbootcamp.com">Dev Bootcamp</a> coming up in a few days. It&rsquo;s a bit intimidating considering their low acceptance rate for applicants.</p>
+
+<p><img src="http://scm-l3.technorati.com/12/12/13/73853/devbootcamp.png?t=20121213131231" alt="Dev Bootcamp logo" /></p>
+
+<p><a href="http://devbootcamp.com">Dev Bootcamp</a> is an intense 9 week training workshop located in San Francisco and Chicago. They take both beginner and experienced programmers, turning them into readily employable <a href="http://rubyonrails.org">Rails</a> beasts.</p>
+
+<p>I first found out about DBC from reading a few discussions about the program on <a href="http://news.ycombinator.com/news">Hacker News</a> and I was impressed with what they had to offer in their curriculum. They cover mainly <a href="http://www.ruby-lang.org/en/">Ruby</a>, <a href="http://rubyonrails.com">Rails</a>, <a href="https://developer.mozilla.org/en-US/docs/JavaScript">JavaScript</a>, and <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile</a> methodologies. It&rsquo;s very similar to what I&rsquo;m learning in <a href="http://www.fullsail.edu/degrees/campus/web-design-development-bachelors">Full Sail&rsquo;s web program</a> so I&rsquo;m sure I&rsquo;ll be prepared once I start my training at DBC.</p>
+
+<p>To handle my nerves, I&rsquo;ve been pushing myself much harder to learn how to become a Rails developer. My classes at Full Sail University have been a huge help so far and the tips that I&rsquo;ve gotten from meetups with <a href="http://teamtreehouse.com">Team Treehouse</a> and <a href="http://www.codeschool.com">Code School</a> have been inspiring for me.</p>
+
+<p>I know this career field is a good fit for me, but I still have my doubts about whether I&rsquo;ll be able to get into Dev Bootcamp. I&rsquo;m not the best student at school and I barely have enough experience with code to impress anyone familiar with dev subject matter. Right now, I&rsquo;m just relying on my passion to learn.</p>
+
+<p>All I know for sure is that my path to becoming a Rails developer is going to be long and challenging, but I&rsquo;ll enjoy writing every step of the way.</p>
+
+<p>Wish me luck!</p>
+]]></content>
+  </entry>
+  
+</feed>

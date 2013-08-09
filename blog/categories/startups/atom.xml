@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: startups | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/startups/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-08-09T16:51:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Post-Startupbus]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/03/17/post-startupbus/"/>
+    <updated>2013-03-17T12:01:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/03/17/post-startupbus</id>
+    <content type="html"><![CDATA[<p><a href="http://americas.startupbus.com/">&ldquo;5 days. 6 buses. 30 startups.
+On March 3rd, 152 people set out from 6 cities to build a startup on a bus&hellip;and launch it 1800 miles later in Austin Texas&rdquo;</a></p>
+
+<p><img src="http://www.wired.com/images_blogs/wiredscience/2013/03/IMG_1203.jpg" alt="startup bus" /></p>
+
+<p>It&rsquo;s funny how my very first hackathon experience ended up being one of the largest hackathon events in the nation. Last week, I took a chance and signed up for <a href="http://startupbus.com/">Startupbus America</a>. It was fun but I must must warn everyone that it isn&rsquo;t for the faint of heart.</p>
+
+<h2>Day 1</h2>
+
+<p>The first day, I met up with the SouthEast StartupBus crew in Tampa. Once the bus started moving, we all shared our startup business ideas and split up into teams. After all the startup pitches, I joined up with Adam Nerland, Anthony Decana, and Ashley Mooney to create <a href="http://thumbtrotter.com">Thumbtrotter</a>. We all liked Adam&rsquo;s idea to create a ridesharing mobile app with &ldquo;Couchsurfing&rdquo; elements. Within minutes, Ashley quickly drew up a window mural of all our brainstorming ideas and at that point, we were ready to hack.</p>
+
+<p><img src="https://sphotos-b.xx.fbcdn.net/hphotos-ash4/482282_426268240790657_2067027034_n.png" alt="thumbtrotter" /></p>
+
+<p>We were ready to hack, but we also needed power and internet to do our work. The bus had to go pick up a generator for our laptops, so we stopped by <a href="http://www.coworkjax.com">CoworkJax</a> to get started and get ourselves situated. It was a short stop, but it was enough for us to have a steady internet connection and a place to sit and work. Thank you CoworkJax.</p>
+
+<p><img src="http://b.vimeocdn.com/ps/273/664/2736649_300.jpg" alt="coworkjax" /></p>
+
+<p>For internet on the road, I had to rely on phone tethering. It wasn&rsquo;t the best but it was all we had. I don&rsquo;t really recommend mobile internet use in transit. Connections dropped in and out throughout the entire trip. It was awful.</p>
+
+<p>Our bus ride was basically an internet-less desert, and I continued to share sips of <a href="solavei.com/omeichim">unlimited mobile internet</a> with iPhone tethering. It was enough to get us through until Atlanta.</p>
+
+<p>In Atlanta, we stopped at our second co-working space, <a href="http://www.hypepotamus.com">Hypepotamus</a>. Landing here was like finding an oasis. We were greeted by Georgia Tech students over there and got to see some of their own startup ideas. It was an awesome welcome into the startup world in Atlanta. Anyone in the area looking for tech hot spots in Atlanta should start looking here.</p>
+
+<p><img src="http://cdn.hypepotamus.com/wp-content/uploads/2013/01/hypepotamus-bw-192x230.png" alt="hypepotamus" /></p>
+
+<h2>Day 2</h2>
+
+<p>On our second day, we had breakfast at the <a href="http://mailchimp.com/">Mailchimp</a> office. The tour was great. We had a chance to take a look inside the office of a successful startup brand. The place looked like a fun and creative office space. It had a very strong personality. Geek paraphanelia was littered all over, and I thought about stealing all of their framed <a href="http://www.streetfighter.com/sf3s/">Street Fighter 3</a> portraits off the wall.</p>
+
+<p><img src="http://i.imgur.com/X2VFvt2.jpg?1" alt="monkey business" /></p>
+
+<p>The geek stuff was all in good taste though. It never felt too overwhelming like entering <a href="http://www.imdb.com/title/tt0090500/">Pee Wee&rsquo;s Playhouse</a>. You could just feel that the work culture there would make any kind of geek comfortable.</p>
+
+<p>By the end of the tour, we all had swag bags full of cool monkey themed merchandise. The whole insider&rsquo;s startup experience was fun. Mailchimp is definitely on my list of places to apply to once I graduate.</p>
+
+<p><img src="http://i.imgur.com/wmLxMpw.jpg?1" alt="mailchimp swag" /></p>
+
+<p>Thanks for all the swag gear.</p>
+
+<h2>Day 3</h2>
+
+<p>On the third day, we made our way to NOLA, better known as New Orleans, LA. Here was where we met up with StartupBus Midwest. <a href="http://lp.co/">Launchpad</a> gave us a warm welcome when we arrived and there at their co-work space, we shared our startups with each other and also got a feel for the budding tech scene in New Orleans.</p>
+
+<p><img src="http://lp.co/images/logo.png" alt="launch pad" /></p>
+
+<p>By this time, our team already established our game plan for Thumbtrotter. While our Thumbtrotter app was still in its early development stages, we were still able to gain a good amount of Facebook likes for our <a href="https://www.facebook.com/Thumbtrotter">Facebook page</a>. We did a bit of our work in NOLA, but most of our time there was spent getting to know each other.</p>
+
+<p>It was great meeting other devs who were crazy enough to work on a bus for 5 days straight. I learned a lot talking with everyone and I was able to get a feel for the <a href="http://overapi.com/">languages and tools</a> that I would need to learn to be competitive in this career field. I loved how the devs I met were just as eager to teach as much I was eager to learn, and everyone seemed to share a common respect for each other for the work that they did.</p>
+
+<p>It was here that I realized how fast dev communities are growing everywhere. I met some really smart people from the Midwest, and all through the entire trip we&rsquo;ve been finding cool tech spots in cities like Tampa, New Orleans, Jacksonville, and Atlanta. I don&rsquo;t know why I thought the tech community only revolved around places like Silicon Valley. The reality is that you find these awesome communities by doing the things you love rather than where you go.</p>
+
+<p>I love &lsquo;Aha&rsquo; moments.</p>
+
+<h2>Days 4 and 5</h2>
+
+<p>Our final days were spent in San Antonio, Texas. All 6 buses from all over North America finally made it to the main event hosted at <a href="http://www.youtube.com/watch?v=J4b0UlAZcH4">&ldquo;Rackspace Castle&rdquo;</a>. This was the battleground for our startups to compete amongst each other.</p>
+
+<p><img src="http://c15162226.r26.cf2.rackcdn.com/Rackspace_Cloud_Company_Logo_clr_300x109.jpg" alt="rackspace" /></p>
+
+<p>All together, there were around 150 of us packed into Rackspace Headquarters and every team gave it their all to be the champion startup.</p>
+
+<p>When it came time to introduce our startup to the judges, we gave them our pitch video.</p>
+
+<div class="video-container">
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/hnnKjm7b03Y" frameborder="0" allowfullscreen></iframe>      
+</div>
+
+
+<p>My team was ready to win, but we were challenged with the fact that there were other existing ridesharing apps for mobile. The judges were not impressed even though we had a working prototype ready and a viable business plan that seperated us from rival competitors.</p>
+
+<h2>Closing</h2>
+
+<p>Team Thumbtrotter didn&rsquo;t win, but we weren&rsquo;t defeated. We came together to create an awesome app that we believed in and shared it with everyone we knew. StartupBus was only the beginning for us and we understood that more opportunities would present themselves in the future for our startup ventures to grow.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,236 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>How to use Octopress: Deployment - James Michiemo</title>
+	<meta name="author" content="James Michiemo">
+
+	
+	<meta name="description" content="In our last &ldquo;How to Use Octopress&rdquo; blog post, we went over how to setup our blog, but that was only the first step. The next step would &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="James Michiemo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">James Michiemo</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:jamesmichiemo.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/omeichim" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/jamesmichiemo" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:jamesmichiemo.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/omeichim">omeichim</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('omeichim', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">How to Use Octopress: Deployment</h2>
+	<div class="entry-content"><p>In our last <a href="http://jamesmichiemo.github.com/blog/2013/02/16/installing-octopress/">&ldquo;How to Use Octopress&rdquo;</a> blog post, we went over how to setup our blog, but that was only the first step. The next step would be to make our Octopress available through hosting. Right now, the Octopress we installed is only setup locally. Only users with access to your computer are able to view the blog, but once we have our Octopress available through hosting, anyone with internet access will be able to find it.</p>
+
+<p>For hosting my own blog, I chose to use <a href="http://pages.github.com/">Github pages</a>. There were several other options but I felt better having my blog linked to the same place I keep my other projects on <a href="https://github.com/jamesmichiemo">my Github account</a>. It made sense considering that most of what I&rsquo;ll be writing about on my blog will revolve around these repositories. As I update my repos, I&rsquo;ll be updating my blog.</p>
+
+<p><img src="http://venturebeat.files.wordpress.com/2012/03/octocat1.png" alt="Octocat" /></p>
+
+<h2>Using Github Pages</h2>
+
+<p><a href="http://pages.github.com/">Github Pages</a> is a free public hosting service that allows users more freedom in workflow options with <a href="http://git-scm.com/">git</a> and other tools for web such as <a href="http://jekyllrb.com/">Jekyll</a>. It&rsquo;s most likely the best choice for our blog. I assume Octopress was created with Github in mind, considering the workflow format and the similarity between mascots.</p>
+
+<p>There&rsquo;s plenty documentation for assisting in deploying to Github Pages on the <a href="http://octopress.org/docs/deploying/github/">official docs page</a>. I recommend following the simple instructions offered there, but I&rsquo;ll still walkthrough and share my experience deploying my Octopress.</p>
+
+<h3>Creating a New Github Repository</h3>
+
+<p>For a Github Page, we will need a Github account. <a href="https://github.com/users">Make one</a> if you don&rsquo;t have a Github account already.</p>
+
+<p>With your Github account, <a href="https://github.com/new">create a new repository</a> and name the repo <code>username.github.com</code></p>
+
+<p><code><a href="http://username.github.com">http://username.github.com</a></code> will be the url for the Octopress.</p>
+
+<h3>Configuring Github Pages</h3>
+
+<p>The next step in our deployment is to use <a href="http://rake.rubyforge.org/">rake</a> to configure github pages. Octopress has a built-in task for setting up everything so all that&rsquo;s needed is the following command to be entered into Terminal while inside the Octopress directory.</p>
+
+<pre><code>rake setup_github_pages</code></pre>
+
+
+<p>A prompt will appear to enter the repo url. Entering the url made in the previous step will link your Octopress to the new Github repo.</p>
+
+<p>Once that&rsquo;s complete, we are now able to use rake to commit and push whatever changes that are made to the Octopress directory by entering:</p>
+
+<pre><code>rake generate</code>
+<code>rake deploy</code></pre>
+
+
+<p>With this our Octopress is now published!</p>
+
+<p>Check the url to see if it&rsquo;s up. If you can&rsquo;t find your blog at the url, carefully repeat the steps until it works.</p>
+
+<h2>Conclusion</h2>
+
+<p>We&rsquo;ve only covered the beginning stages, but at least now we have a visible working blog on the web. Next, we&rsquo;ll take a look into posting and making configurations with Octopress.</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-27T15:39:00-05:00" pubdate data-updated="true">Feb 27<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/github/'>github</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
+
+
+</div>
+	
+		<div class="comments"><a href="/blog/2013/02/27/how-to-use-octopress-part-2/#disqus_thread">Comments</a></div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    James Michiemo
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'jamesmichiemo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jamesmichiemo.github.io/blog/2013/02/27/how-to-use-octopress-part-2/';
+        var disqus_url = 'http://jamesmichiemo.github.io/blog/2013/02/27/how-to-use-octopress-part-2/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38707187-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
