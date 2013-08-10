@@ -16,9 +16,10 @@
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	
 </head>
+
 
 <body>
 	<header id="header" class="inner"><h1><a href="/">James Michiemo</a></h1>
@@ -68,6 +69,7 @@
 		
 		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
 		
+    
 	</div>
 	<form class="search" action="http://google.com/search" method="get">
 		<input class="alignright" type="text" name="q" results="0">
@@ -88,7 +90,7 @@
 <script src="/javascripts/twitter.js"></script>
 <script type="text/javascript">
 	(function($){
-		$('#banner').getTwitterFeed('omeichim', 4, false);
+		$('#banner').getTwitterFeed('omeichim', 4, true);
 	})(jQuery);
 </script>
 
@@ -100,6 +102,9 @@
 	
 	
 	<section class="archives"><h1 class="year">2013</h1>
+	
+	</section>
+	
 
 <article>
 	<h2 class="title"><a href="/blog/2013/02/23/dev-bootcamp-post-interview/">Dev Bootcamp: Post-Interview</a></h2>
@@ -117,6 +122,7 @@
 	    
 	</div>
 </article>
+
 
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
@@ -141,7 +147,7 @@
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = '//go.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
