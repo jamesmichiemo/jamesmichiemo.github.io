@@ -7,7 +7,7 @@
 	<meta name="author" content="James Michiemo">
 
 	
-	<meta name="description" content="Just the other week, I discovered an awesome flashcard app that helps with studying. The app is called Anki and the best thing about it is that it& &hellip;">
+	<meta name="description" content="Do you find yourself repeatedly looking up the same code and copy/pasting from project to project? Stop torturing yourself and get a text editor &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -96,6 +96,178 @@
 
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/02/19/snippets/">
+		
+			Creating Snippets</a>
+	</h2>
+	<div class="entry-content">
+		<p>Do you find yourself repeatedly looking up the same code and copy/pasting from project to project?</p>
+
+<p>Stop torturing yourself and get a text editor that uses snippets.</p>
+
+<p>Code snippets are a great way to increase your workflow productivity, and in <a href="http://www.sublimetext.com/">Sublime Text</a>, making use of them is easy and simple. I highly recommend snippets to anyone who wants to become a faster coder. I should warn you though, hacks won&rsquo;t instantly make you a &ldquo;better&rdquo; coder. True skills come with practice.</p>
+
+<h2>Getting Started</h2>
+
+<p>So? Where do we begin?</p>
+
+<p>First, we need a text editor worth bragging about. I love Sublime Text. <a href="http://www.sublimetext.com/2">Download it.</a> It&rsquo;s what I&rsquo;ll be using in this post to show how snippets work. There are other text editors like <a href="http://macromates.com/">Textmate</a> that work great with snippets, but I prefer Sublime Text.</p>
+
+<p><img src="http://c758482.r82.cf2.rackcdn.com/sublime_text_icon_2181.png" alt="Sublime Text" /></p>
+
+<p>In Sublime Text, a snippet is a block of code that&rsquo;s inserted into your working document when triggered. An example would be typing in ‘html’ and hitting the Tab key afterwards to trigger the following output below within an html document.(FYI:this default snippet won&rsquo;t work in any other document format)</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;html&gt;</span>
+</span><span class='line'><span class="nt">&lt;head&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+</span><span class='line'><span class="nt">&lt;/head&gt;</span>
+</span><span class='line'><span class="nt">&lt;body&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;/body&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ok, not very exciting, but what if I told you that you can create a snippet anyway you want, using ANY kind of text to trigger ANY size block of code of your choosing. Oh and you can place any number of cursors anywhere within that block to type multiple code values at the same time.</p>
+
+<p>Yea I know.</p>
+
+<p>Sublime Text. Download. Install. Open.</p>
+
+<h2>New Game</h2>
+
+<p>Now that we have Sublime Text up and running, we&rsquo;re going to go ahead and open up the snippet template.</p>
+
+<p>In your Sublime Text menu, search within the &ldquo;Tools&rdquo; dropdown and select &ldquo;New Snippet&hellip;&rdquo;. You should be presented with a template that looks like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;snippet&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;content&gt;</span><span class="cp">&lt;![CDATA[</span>
+</span><span class='line'><span class="cp">Hello, ${1:this} is a ${2:snippet}.</span>
+</span><span class='line'><span class="cp">]]&gt;</span><span class="nt">&lt;/content&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- &lt;tabTrigger&gt;hello&lt;/tabTrigger&gt; --&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- &lt;scope&gt;source.python&lt;/scope&gt; --&gt;</span>
+</span><span class='line'><span class="nt">&lt;/snippet&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Nice. Now we have ourselves a fancy xml script to modify with help comments. Self-explanatory, right?</p>
+
+<p>For those of you who can figure this out at first glance, I salute you.</p>
+
+<p>The rest may read on.</p>
+
+<h2>How to Play</h2>
+
+<p>Ok. Let&rsquo;s break this down line by line.</p>
+
+<p>Starting at line number one, we have our snippet bracket which contains the entirety of our code.</p>
+
+<p>In the next line, the content bracket nested within the snippet bracket holds the block of code that we want to output when triggered. Within the block, ${1:this} and ${2:snippet} are used to point to where the cursor should be placed sequentially after each time the tab button is hit.</p>
+
+<p>Afterwards, we have comments stating that we have the option to set the tabTrigger to trigger the snippet and also the option to indicate the format where the snippet is able to trigger.</p>
+
+<p>I&rsquo;m guessing that anyone is free to not use the code that is commented out, but for the purposes of creating a fully functional snippet, the tabTrigger and scope elements are NOT optional. We want to specify how our snippet is triggered and where our triggers are able to function.</p>
+
+<h2>Practice Mode</h2>
+
+<p>As an example, we&rsquo;ll use one of the <a href="https://github.com/jamesmichiemo/CSS-sublimetext-snippets">Z-Snippets</a> that I created for CSS to compare with the &ldquo;New Snippet&hellip;&rdquo; template.</p>
+
+<p>Text-Shadow snippet:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;snippet&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;content&gt;</span><span class="cp">&lt;![CDATA[-webkit-text-shadow: ${1:}px ${2:} #${3:}; </span>
+</span><span class='line'><span class="cp">-moz-text-shadow: ${1:}px ${2:} #${3:};</span>
+</span><span class='line'><span class="cp">text-shadow: ${1:}px ${2:} #${3:};</span>
+</span><span class='line'><span class="cp">]]&gt;</span><span class="nt">&lt;/content&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;tabTrigger&gt;</span>ztext-shadow<span class="nt">&lt;/tabTrigger&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;scope&gt;</span>text.html, source.css, source.less, source.scss, source.stylus<span class="nt">&lt;/scope&gt;</span>
+</span><span class='line'><span class="nt">&lt;/snippet&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Let&rsquo;s look at the code that I replaced in the template.</p>
+
+<p>First, I took out the <code>Hello, ${1:this} is a ${2:snippet}.</code> text within the content element and replaced it with the CSS code that I want to output if I trigger it. Note that the text must be placed within the <code>![CDATA[ ]]</code> brackets for the code to work properly. And for the sake of convenience, <code>${1:} ${2:}</code> and <code>${3:}</code> are used to type in the appropriate CSS values for multiple vendor prefixes simultaneously.</p>
+
+<p>Next, I replaced the <code>hello</code> text with my own trigger text. Now with the text, <code>ztext-shadow</code>, placed within the tabTrigger element, the snippet will only trigger after pressing tab at the end of any ztext-shadow.</p>
+
+<p>Lastly, we must identify which formats to allow the snippet to be used in. A CSS snippet would only be appropriate within file formats that are able to use CSS, such as HTML and LESS. Some snippets may clutter your autocomplete lists, if you&rsquo;re not careful enough to label your scope correctly. It&rsquo;s not a difficult task. I&rsquo;ve found that almost every format&rsquo;s scope is identified by typing &ldquo;source.&rdquo; before the file&rsquo;s extension, with the exception of HTML which uses text. as a prefix.</p>
+
+<h2>Let&rsquo;s Play</h2>
+
+<p>You&rsquo;re free to create a snippet of your own just like the one I made for myself.</p>
+
+<p>Once you&rsquo;ve made your own snippet script, you want to save your xml file over to the Sublime Text Package Folder. You can find where it is with Browse Packages under Preferences.</p>
+
+<p>Snippets should start working immediately after saving. It&rsquo;s a simple code modification, but if it doesn&rsquo;t work out, you&rsquo;re probably better off learning <a href="http://docs.emmet.io/">Emmet coding</a> to start off with.</p>
+
+<p>I&rsquo;ll be sure to expand on more coding techiniques in future posts as I learn more.</p>
+
+<p>Enjoy!</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-19T06:50:00-05:00" pubdate data-updated="true">Feb 19<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/hacking/'>hacking</a>, <a class='category' href='/blog/categories/productivity/'>productivity</a>
+
+
+</div>
+	
+	<div class="comments"><a href="/blog/2013/02/19/snippets/#disqus_thread">Comments</a></div>
+	
+</div>
+</article>
 
 
     <article class="post">

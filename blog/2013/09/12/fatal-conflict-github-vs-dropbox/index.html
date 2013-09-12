@@ -1,0 +1,218 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fatal Conflict: Git vs Dropbox - James Michiemo</title>
+	<meta name="author" content="James Michiemo">
+
+	
+	<meta name="description" content="So this morning, I ran into a very small problem that had to do with version control. I decided to update a repo that I had been working on for the &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="James Michiemo" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">James Michiemo</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:jamesmichiemo.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/omeichim" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/jamesmichiemo" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:jamesmichiemo.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/omeichim">omeichim</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('omeichim', 4, true);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Fatal Conflict: Git vs Dropbox</h2>
+	<div class="entry-content"><p>So this morning, I ran into a very small problem that had to do with version control. I decided to update a repo that I had been working on for the past few days on another laptop. When I attempted to perform a git pull, I was given an error message that said, &ldquo;fatal: Reference has invalid format: &lsquo;refs/heads/master&rsquo;&rdquo;.</p>
+
+<p>After doing a bit of research I discovered that the problem may have been caused by using both Git and Dropbox at the same time for the same project. Now I&rsquo;ve actually been warned NOT to do this, but I&rsquo;m stubborn about my tools and I figured that if it&rsquo;s been working for me for months, there really shouldn&rsquo;t be any reason why I should do away with my own methods for my own projects.</p>
+
+<p>I could do away with using Dropbox for coding, but Dropbox is super convenient for accessing projects on mobile phones. Github recently made a super slick mobile web version of their website for accessing repos on smartphones, but it&rsquo;s not really made for editing. You can look but you can&rsquo;t touch.</p>
+
+<p>Now it&rsquo;s not like I&rsquo;m refactoring code on my phone on the regular, but it&rsquo;s still a nice feature to have, just in case. Until I figure out how to use bash on the phone, I&rsquo;ll stick to Dropbox.</p>
+
+<p>Anyways, the conflict wasn&rsquo;t too hard to fix. The problem was that Dropbox made an extra copy of a file that I already have. To fix the error I had to run a command that would look for the conflicted copy and destroy it. For this I used this command in the repo:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ find . -type f -name "* conflicted copy*" -exec rm -f {} \; </span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>With that command, I was able to get rid of the error and resume using git as usual. Simple right?</p>
+
+<p>This was probably the proof that I needed that Git and Dropbox don&rsquo;t mix well together, but I&rsquo;ll probably still use Dropbox and Git anyway. What else could go wrong?</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-12T11:38:00-04:00" pubdate data-updated="true">Sep 12<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/vcs/'>vcs</a>, <a class='category' href='/blog/categories/versioncontrol/'>versioncontrol</a>
+
+
+</div>
+	
+	<div class="comments"><a href="#disqus_thread">Comments</a></div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    James Michiemo
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'jamesmichiemo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox/';
+        var disqus_url = 'http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//go.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38707187-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

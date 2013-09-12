@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: vcs | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/vcs/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-09-12T12:56:40-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fatal Conflict: Git vs Dropbox]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox/"/>
+    <updated>2013-09-12T11:38:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox</id>
+    <content type="html"><![CDATA[<p>So this morning, I ran into a very small problem that had to do with version control. I decided to update a repo that I had been working on for the past few days on another laptop. When I attempted to perform a git pull, I was given an error message that said, &ldquo;fatal: Reference has invalid format: &lsquo;refs/heads/master&rsquo;&rdquo;.</p>
+
+<p>After doing a bit of research I discovered that the problem may have been caused by using both Git and Dropbox at the same time for the same project. Now I&rsquo;ve actually been warned NOT to do this, but I&rsquo;m stubborn about my tools and I figured that if it&rsquo;s been working for me for months, there really shouldn&rsquo;t be any reason why I should do away with my own methods for my own projects.</p>
+
+<p>I could do away with using Dropbox for coding, but Dropbox is super convenient for accessing projects on mobile phones. Github recently made a super slick mobile web version of their website for accessing repos on smartphones, but it&rsquo;s not really made for editing. You can look but you can&rsquo;t touch.</p>
+
+<p>Now it&rsquo;s not like I&rsquo;m refactoring code on my phone on the regular, but it&rsquo;s still a nice feature to have, just in case. Until I figure out how to use bash on the phone, I&rsquo;ll stick to Dropbox.</p>
+
+<p>Anyways, the conflict wasn&rsquo;t too hard to fix. The problem was that Dropbox made an extra copy of a file that I already have. To fix the error I had to run a command that would look for the conflicted copy and destroy it. For this I used this command in the repo:</p>
+
+<p><code>
+$ find . -type f -name "* conflicted copy*" -exec rm -f {} \;
+</code></p>
+
+<p>With that command, I was able to get rid of the error and resume using git as usual. Simple right?</p>
+
+<p>This was probably the proof that I needed that Git and Dropbox don&rsquo;t mix well together, but I&rsquo;ll probably still use Dropbox and Git anyway. What else could go wrong?</p>
+]]></content>
+  </entry>
+  
+</feed>
