@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: reviews | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-09-22T05:03:22-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Adventures: Video Game Review]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review/"/>
+    <updated>2013-09-21T19:29:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review</id>
+    <content type="html"><![CDATA[<p><img src="images/vimadventures.jpg" alt="The title screen for Vim Adventures" /></p>
+
+<p><a href="http://www.vim.org">Vim</a> is my absolute favorite text editor. I recommend it to anyone who loves using Unix tools. It&rsquo;s a powerful weapon for editing scripts but it isn&rsquo;t for everyone. The main issue that most people have with Vim is that it has a steep learning curve. Performing even a small task like typing a single character is nearly impossible for a beginner to figure out. It&rsquo;s a tool that forces the user to read the manual.</p>
+
+<p>There&rsquo;s absolutely no substitute for reading through Vim&rsquo;s documentation and built-in tutorial but for those that love RPG styled video games, Vim Adventures is an excellent alternative.</p>
+
+<p><a href="http://vim-adventures.com/">Vim Adventures</a> is an in-browser puzzle game that plays a lot like a tile based RPG. In the game you play as the &ldquo;shadowy cursor&rdquo; prophecized to save the world from doom. This should sound very familiar if you&rsquo;ve played a few video games with RPG elements but this time your skills aren&rsquo;t gained through experience points from battle. As the game progresses, your character collects shortcut keys obtained through solving puzzles. Every puzzle challenges the player to learn how to use Vim in the most effecient manner possible.</p>
+
+<p>The challenges are tough and you&rsquo;ll soon find yourself <a href="http://lmgtfy.com/?q=How+do+you+pass+level+3+in+Vim+Adventures%3F">Googling</a> for help along the way. I advice against spoiling the game like that. If you truly want to learn Vim, try to stick it out without looking up the solutions. At least make sure to talk to all the NPCs first if you find yourself stuck. Don&rsquo;t give up. The challenges are designed to illustrate both the capablities and limitations of each shortcut command through every attempt made to solve the puzzle. You might spend hours on a single puzzle but by the time you&rsquo;re through with it, you&rsquo;ll be satisfied knowing that you&rsquo;ve learned a new trick that can be brought into your text editing workflow.</p>
+
+<p>So far I&rsquo;ve gotten up to Level 7 and at this point I feel extremely comfortable maneuvering with Vim. Playing the game really helps to build the necessary muscle memory needed to work without having to looking up the shortcuts for every command. I&rsquo;m sure by the end of the game I&rsquo;ll have true mastery over Vim but for now I&rsquo;ll keep my Vim cheat sheet close by.</p>
+
+<p>Vim Adventures is free to try out but expect to pay at least 25 dollars for the full game. For the price, the game is totally worth it. Very few video games teach anything at all, let alone something as difficult as Vim. Don&rsquo;t miss out.</p>
+]]></content>
+  </entry>
+  
+</feed>
