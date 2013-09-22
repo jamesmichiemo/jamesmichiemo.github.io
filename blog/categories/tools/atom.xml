@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tools | James Michiemo]]></title>
   <link href="http://jamesmichiemo.github.io/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://jamesmichiemo.github.io/"/>
-  <updated>2013-09-22T05:03:22-04:00</updated>
+  <updated>2013-09-22T05:16:33-04:00</updated>
   <id>http://jamesmichiemo.github.io/</id>
   <author>
     <name><![CDATA[James Michiemo]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review/"/>
     <updated>2013-09-21T19:29:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review</id>
-    <content type="html"><![CDATA[<p><img src="images/vimadventures.jpg" alt="The title screen for Vim Adventures" /></p>
+    <content type="html"><![CDATA[<p><img src="http://imgur.com/CGjCKl9.jpg" alt="The title screen for Vim Adventures" /></p>
 
 <p><a href="http://www.vim.org">Vim</a> is my absolute favorite text editor. I recommend it to anyone who loves using Unix tools. It&rsquo;s a powerful weapon for editing scripts but it isn&rsquo;t for everyone. The main issue that most people have with Vim is that it has a steep learning curve. Performing even a small task like typing a single character is nearly impossible for a beginner to figure out. It&rsquo;s a tool that forces the user to read the manual.</p>
 
