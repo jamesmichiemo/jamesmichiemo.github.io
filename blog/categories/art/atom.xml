@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: art | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/art/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-09-27T02:40:33-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Focusing on WebGL]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/09/27/focusing-on-webgl/"/>
+    <updated>2013-09-27T00:31:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/09/27/focusing-on-webgl</id>
+    <content type="html"><![CDATA[<p>Web browsers are increasingly becoming more advanced and have progressed beyond simply displaying hypertext and images. The 3D technology that we&rsquo;ve been enjoying through video games and movies has recently become available through today&rsquo;s modern browsers. For those who aren&rsquo;t familiar, WebGL is the latest HTML5 trend that uses JavaScript to render interactive three-dimensional graphics.</p>
+
+<p><img src="http://cdn4.pitchfork.com/news/50934/96c75f1d.jpg" alt="The original cover art for The Red Wing" /></p>
+
+<p>WebGL is still an experiment but that&rsquo;s what I love about it. I love everything that&rsquo;s experimental, especially experimental music. I&rsquo;m a huge fan of the Fuck Buttons and I was totally blown away by their latest album, &ldquo;Slow Focus&rdquo;. As an experiment, I decided to try out WebGL to make a 3D version of the cover art for their single, &ldquo;The Red Wing&rdquo;, which can be seen at the link below.</p>
+
+<p><a href="http://jamesmichiemo.github.io/slowfocus">3D interpretation of The Red Wing cover art</a></p>
+
+<p>What I ended up creating was really basic compared to other WebGL experiments found on the internet, but I&rsquo;m fine with that because I learned something new along the way with something that I&rsquo;m passionate about. I&rsquo;ll never get tired of obsessing over the ways that technology pushes art and vice versa. As technology moves forward, we&rsquo;ll find even more ways to share art with one another. I&rsquo;m really excited to see what the future holds for interactive media.</p>
+]]></content>
+  </entry>
+  
+</feed>
