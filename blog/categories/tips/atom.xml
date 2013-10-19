@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tips | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-10-18T20:00:10-04:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Damage Control]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/10/18/damage-control/"/>
+    <updated>2013-10-18T18:16:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/10/18/damage-control</id>
+    <content type="html"><![CDATA[<p>My Macbook is dead. I knew this would happen one day, especially at an important time, like now, when I&rsquo;m preparing for an internship interview for Linkedin. It&rsquo;s entirely my fault. I shouldn&rsquo;t have been drinking and typing. It was a sad moment to watch the water from cup flow right through my keyboard buttons, but it wasn&rsquo;t as painful as it could have been.</p>
+
+<p><img src="http://i.imgur.com/Djnih.gif" alt="sad face" /></p>
+
+<p>Right now, I&rsquo;m looking into getting my Macbook replaced but in the meantime I have work to do. Luckily, I&rsquo;ve got another machine at home running Ubuntu. Right before my disaster, I was able to upload my dotfile configurations to Github, so I&rsquo;m fortunate enough to be able to transfer my previous development environment over to my Ubuntu laptop. It&rsquo;s an old and clunky laptop compared to my Macbook but it works almost completely the same as far as Unix tools.</p>
+
+<p>I also dodged a bullet by keeping all my current projects on Dropbox. I&rsquo;d have to say that Dropbox probably uses up the most processing power out of all the applications on my machine right now but it&rsquo;s worth it having all your important documents synced just in case anything happens. Backing up files is never a bad idea.</p>
+
+<p>I should be more upset about my situation but everything happens for a reason. I&rsquo;ll just remember this as a learning experience and a lesson in how you can never be too prepared for when disaster strikes.</p>
+
+<p>Back up everything.</p>
+]]></content>
+  </entry>
+  
+</feed>
