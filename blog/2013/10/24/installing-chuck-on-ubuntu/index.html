@@ -3,11 +3,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Category: tips - James Michiemo</title>
+	<title>Installing ChucK on Ubuntu - James Michiemo</title>
 	<meta name="author" content="James Michiemo">
 
 	
-	<meta name="description" content="Category: tips">
+	<meta name="description" content="Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -95,54 +95,94 @@
 </script>
 
 	
-	<div id="content" class="inner">
-	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Installing ChucK on Ubuntu</h2>
+	<div class="entry-content"><p>Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to orchestrate light and sound. I&rsquo;ve watched a few demos of it and I&rsquo;m already hooked on the idea of learning how to do this sort of thing. Currently, I&rsquo;m taking a couple of classes to become better at programming, so I feel like it&rsquo;s the perfect thing to play around with for fun.</p>
+
+<div class="video-container">
+<iframe width="420" height="315" src="//www.youtube.com/embed/GSGKEy8vHqg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2013</h1>
-	
+<p></p>
 
-<article>
-	<h2 class="title"><a href="/blog/2013/10/24/installing-chuck-on-ubuntu/">Installing ChucK on Ubuntu</a></h2>
-	<div class="meta">
-		<div class="date">Oct 24</div>
-		<div class="tags">
+<p>I&rsquo;m using the ChucK programming language to get a feel for making music with algorithms. It&rsquo;s a language made specifically for manipulating sound and it&rsquo;s fun to play with, but what wasn&rsquo;t fun was figuring out how to install it on Ubuntu.</p>
+
+<p>I had no problems installing with Mac, but the Ubuntu installation was a bit more involved. I tried the old ./configure, make, make install trick on the source file but I was missing too many dependencies for it to run. I then checked for an apt-get package but then chuck told me that I was missing an audio API to connect to so I was stuck with a music programming language that couldn&rsquo;t make a sound.</p>
+
+<p>After searching through message boards, mailing lists, and blogs, I was able to find a solution from a post about <a href="http://t-a-w.blogspot.com/2007/05/using-ddr-dance-mat-as-musical.html">&ldquo;Using a DDR dance mat as a musical instrument&rdquo;</a>. Not my intention, but cool idea.</p>
+
+<p>The author had figured out that you need to run apt-get chuck with another application call jackd. First you need to run the installation:</p>
+
+<pre><code>$ sudo apt-get install chuck jackd</code></pre>
+
+
+<p>ChucK still won&rsquo;t work since you need jackd running at the same time, so once you have jackd installed, go ahead and run this in a new terminal:</p>
+
+<pre><code>$ jackd -d alsa</code></pre>
+
+
+<p>Leave that terminal running in the background somewhere and then proceed to run ChucK with this line:</p>
+
+<pre><code>$ chuck --srate48000 \*.ck</code></pre>
+
+
+<p></p>
+
+<p>And that should be it. After running that last line I was able to hear some audio from my speakers.</p>
+
+<p>If you have a Mac, rejoice. It&rsquo;s only one click. FML</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-24T16:12:00-04:00" pubdate data-updated="true">Oct 24<span>th</span>, 2013</time></div>
+	<div class="tags">
 
 
 	<a class='category' href='/blog/categories/tips/'>tips</a>
 
 
 </div>
-	    
-	    <div class="comments"><a href="/blog/2013/10/24/installing-chuck-on-ubuntu/#disqus_thread">Comments</a></div>
-	    
-	</div>
-</article>
-
-
 	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/10/18/damage-control/">Damage Control</a></h2>
-	<div class="meta">
-		<div class="date">Oct 18</div>
-		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/tips/'>tips</a>
-
-
+	<div class="comments"><a href="#disqus_thread">Comments</a></div>
+	
 </div>
-	    
-	    <div class="comments"><a href="/blog/2013/10/18/damage-control/#disqus_thread">Comments</a></div>
-	    
-	</div>
 </article>
 
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
 
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 
@@ -162,7 +202,10 @@
       var disqus_shortname = 'jamesmichiemo';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu/';
+        var disqus_url = 'http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

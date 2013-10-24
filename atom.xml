@@ -4,7 +4,7 @@
   <title><![CDATA[James Michiemo]]></title>
   <link href="http://jamesmichiemo.github.io/atom.xml" rel="self"/>
   <link href="http://jamesmichiemo.github.io/"/>
-  <updated>2013-10-23T11:41:23-04:00</updated>
+  <updated>2013-10-24T17:20:42-04:00</updated>
   <id>http://jamesmichiemo.github.io/</id>
   <author>
     <name><![CDATA[James Michiemo]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Installing ChucK on Ubuntu]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu/"/>
+    <updated>2013-10-24T16:12:00-04:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu</id>
+    <content type="html"><![CDATA[<p>Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to orchestrate light and sound. I&rsquo;ve watched a few demos of it and I&rsquo;m already hooked on the idea of learning how to do this sort of thing. Currently, I&rsquo;m taking a couple of classes to become better at programming, so I feel like it&rsquo;s the perfect thing to play around with for fun.</p>
+
+<div class="video-container">
+<iframe width="420" height="315" src="http://jamesmichiemo.github.io//www.youtube.com/embed/GSGKEy8vHqg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<p></p>
+
+<p>I&rsquo;m using the ChucK programming language to get a feel for making music with algorithms. It&rsquo;s a language made specifically for manipulating sound and it&rsquo;s fun to play with, but what wasn&rsquo;t fun was figuring out how to install it on Ubuntu.</p>
+
+<p>I had no problems installing with Mac, but the Ubuntu installation was a bit more involved. I tried the old ./configure, make, make install trick on the source file but I was missing too many dependencies for it to run. I then checked for an apt-get package but then chuck told me that I was missing an audio API to connect to so I was stuck with a music programming language that couldn&rsquo;t make a sound.</p>
+
+<p>After searching through message boards, mailing lists, and blogs, I was able to find a solution from a post about <a href="http://t-a-w.blogspot.com/2007/05/using-ddr-dance-mat-as-musical.html">&ldquo;Using a DDR dance mat as a musical instrument&rdquo;</a>. Not my intention, but cool idea.</p>
+
+<p>The author had figured out that you need to run apt-get chuck with another application call jackd. First you need to run the installation:</p>
+
+<pre><code>$ sudo apt-get install chuck jackd</code></pre>
+
+
+<p>ChucK still won&rsquo;t work since you need jackd running at the same time, so once you have jackd installed, go ahead and run this in a new terminal:</p>
+
+<pre><code>$ jackd -d alsa</code></pre>
+
+
+<p>Leave that terminal running in the background somewhere and then proceed to run ChucK with this line:</p>
+
+<pre><code>$ chuck --srate48000 \*.ck</code></pre>
+
+
+<p></p>
+
+<p>And that should be it. After running that last line I was able to hear some audio from my speakers.</p>
+
+<p>If you have a Mac, rejoice. It&rsquo;s only one click. FML</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Silicon Valley Visits Orlando]]></title>
@@ -741,15 +784,6 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 <h2>Conclusion</h2>
 
 <p>At this point, we have everything we need to make a blog post, but we still need to deploy our octopress to a host and also make changes the blog configurations to make the site more personalized.  I&rsquo;ll be sure to cover those steps in a future post. I hope this post helps out anyone with an interest in making a new Octopress.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Starting Up]]></title>
-    <link href="http://jamesmichiemo.github.io/blog/2013/02/11/starting-up/"/>
-    <updated>2013-02-11T14:11:00-05:00</updated>
-    <id>http://jamesmichiemo.github.io/blog/2013/02/11/starting-up</id>
-    <content type="html"><![CDATA[<p>Welcome to my new blog. This blog was created to share all my adventures having to do with the web. Honestly, I spend a lot of time on the web learning new things about development and design, so I felt I should share all my discoveries. Hopefully, someone out there will find whatever I share useful.</p>
 ]]></content>
   </entry>
   

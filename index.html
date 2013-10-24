@@ -7,7 +7,7 @@
 	<meta name="author" content="James Michiemo">
 
 	
-	<meta name="description" content="Today was pretty awesome. Linkedin came to visit my school at Full Sail University and I got the opportunity to meet some of the staff working in &hellip;">
+	<meta name="description" content="Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -96,6 +96,83 @@
 
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/10/24/installing-chuck-on-ubuntu/">
+		
+			Installing ChucK on Ubuntu</a>
+	</h2>
+	<div class="entry-content">
+		<p>Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to orchestrate light and sound. I&rsquo;ve watched a few demos of it and I&rsquo;m already hooked on the idea of learning how to do this sort of thing. Currently, I&rsquo;m taking a couple of classes to become better at programming, so I feel like it&rsquo;s the perfect thing to play around with for fun.</p>
+
+<div class="video-container">
+<iframe width="420" height="315" src="//www.youtube.com/embed/GSGKEy8vHqg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<p></p>
+
+<p>I&rsquo;m using the ChucK programming language to get a feel for making music with algorithms. It&rsquo;s a language made specifically for manipulating sound and it&rsquo;s fun to play with, but what wasn&rsquo;t fun was figuring out how to install it on Ubuntu.</p>
+
+<p>I had no problems installing with Mac, but the Ubuntu installation was a bit more involved. I tried the old ./configure, make, make install trick on the source file but I was missing too many dependencies for it to run. I then checked for an apt-get package but then chuck told me that I was missing an audio API to connect to so I was stuck with a music programming language that couldn&rsquo;t make a sound.</p>
+
+<p>After searching through message boards, mailing lists, and blogs, I was able to find a solution from a post about <a href="http://t-a-w.blogspot.com/2007/05/using-ddr-dance-mat-as-musical.html">&ldquo;Using a DDR dance mat as a musical instrument&rdquo;</a>. Not my intention, but cool idea.</p>
+
+<p>The author had figured out that you need to run apt-get chuck with another application call jackd. First you need to run the installation:</p>
+
+<pre><code>$ sudo apt-get install chuck jackd</code></pre>
+
+
+<p>ChucK still won&rsquo;t work since you need jackd running at the same time, so once you have jackd installed, go ahead and run this in a new terminal:</p>
+
+<pre><code>$ jackd -d alsa</code></pre>
+
+
+<p>Leave that terminal running in the background somewhere and then proceed to run ChucK with this line:</p>
+
+<pre><code>$ chuck --srate48000 \*.ck</code></pre>
+
+
+<p></p>
+
+<p>And that should be it. After running that last line I was able to hear some audio from my speakers.</p>
+
+<p>If you have a Mac, rejoice. It&rsquo;s only one click. FML</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-24T16:12:00-04:00" pubdate data-updated="true">Oct 24<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/tips/'>tips</a>
+
+
+</div>
+	
+	<div class="comments"><a href="/blog/2013/10/24/installing-chuck-on-ubuntu/#disqus_thread">Comments</a></div>
+	
+</div>
+</article>
 
 
     <article class="post">
@@ -694,90 +771,6 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 </div>
 	
 	<div class="comments"><a href="/blog/2013/03/17/post-startupbus/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/02/27/how-to-use-octopress-part-2/">
-		
-			How to Use Octopress: Deployment</a>
-	</h2>
-	<div class="entry-content">
-		<p>In our last <a href="http://jamesmichiemo.github.com/blog/2013/02/16/installing-octopress/">&ldquo;How to Use Octopress&rdquo;</a> blog post, we went over how to setup our blog, but that was only the first step. The next step would be to make our Octopress available through hosting. Right now, the Octopress we installed is only setup locally. Only users with access to your computer are able to view the blog, but once we have our Octopress available through hosting, anyone with internet access will be able to find it.</p>
-
-<p>For hosting my own blog, I chose to use <a href="http://pages.github.com/">Github pages</a>. There were several other options but I felt better having my blog linked to the same place I keep my other projects on <a href="https://github.com/jamesmichiemo">my Github account</a>. It made sense considering that most of what I&rsquo;ll be writing about on my blog will revolve around these repositories. As I update my repos, I&rsquo;ll be updating my blog.</p>
-
-<p><img src="http://venturebeat.files.wordpress.com/2012/03/octocat1.png" alt="Octocat" /></p>
-
-<h2>Using Github Pages</h2>
-
-<p><a href="http://pages.github.com/">Github Pages</a> is a free public hosting service that allows users more freedom in workflow options with <a href="http://git-scm.com/">git</a> and other tools for web such as <a href="http://jekyllrb.com/">Jekyll</a>. It&rsquo;s most likely the best choice for our blog. I assume Octopress was created with Github in mind, considering the workflow format and the similarity between mascots.</p>
-
-<p>There&rsquo;s plenty documentation for assisting in deploying to Github Pages on the <a href="http://octopress.org/docs/deploying/github/">official docs page</a>. I recommend following the simple instructions offered there, but I&rsquo;ll still walkthrough and share my experience deploying my Octopress.</p>
-
-<h3>Creating a New Github Repository</h3>
-
-<p>For a Github Page, we will need a Github account. <a href="https://github.com/users">Make one</a> if you don&rsquo;t have a Github account already.</p>
-
-<p>With your Github account, <a href="https://github.com/new">create a new repository</a> and name the repo <code>username.github.com</code></p>
-
-<p><code><a href="http://username.github.com">http://username.github.com</a></code> will be the url for the Octopress.</p>
-
-<h3>Configuring Github Pages</h3>
-
-<p>The next step in our deployment is to use <a href="http://rake.rubyforge.org/">rake</a> to configure github pages. Octopress has a built-in task for setting up everything so all that&rsquo;s needed is the following command to be entered into Terminal while inside the Octopress directory.</p>
-
-<pre><code>rake setup_github_pages</code></pre>
-
-
-<p>A prompt will appear to enter the repo url. Entering the url made in the previous step will link your Octopress to the new Github repo.</p>
-
-<p>Once that&rsquo;s complete, we are now able to use rake to commit and push whatever changes that are made to the Octopress directory by entering:</p>
-
-<pre><code>rake generate</code>
-<code>rake deploy</code></pre>
-
-
-<p>With this our Octopress is now published!</p>
-
-<p>Check the url to see if it&rsquo;s up. If you can&rsquo;t find your blog at the url, carefully repeat the steps until it works.</p>
-
-<h2>Conclusion</h2>
-
-<p>We&rsquo;ve only covered the beginning stages, but at least now we have a visible working blog on the web. Next, we&rsquo;ll take a look into posting and making configurations with Octopress.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-27T15:39:00-05:00" pubdate data-updated="true">Feb 27<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/github/'>github</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2013/02/27/how-to-use-octopress-part-2/#disqus_thread">Comments</a></div>
 	
 </div>
 </article>
