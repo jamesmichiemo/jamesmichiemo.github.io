@@ -7,7 +7,7 @@
 	<meta name="author" content="James Michiemo">
 
 	
-	<meta name="description" content="Welcome to my new blog. This blog was created to share all my adventures having to do with the web. Honestly, I spend a lot of time on the web &hellip;">
+	<meta name="description" content="The last time I tried to blog was ages ago in the early aughties when Xanga ruled. Nowadays, Wordpress is definitely the most popular weapon of &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -96,6 +96,121 @@
 
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/02/16/installing-octopress/">
+		
+			How to Make an Octopress: Setup</a>
+	</h2>
+	<div class="entry-content">
+		<p>The last time I tried to blog was ages ago in the early aughties when <a href="http://www.xanga.com">Xanga</a> ruled. Nowadays, <a href="http://www.wordpress.com">Wordpress</a> is definitely the most popular weapon of choice for blogging but I decided to go with Octopress to help expand my developer skills.</p>
+
+<p><img src="http://drupal.org/files/project-images/octopress.png" alt="Octopress Logo" /></p>
+
+<p><a href="http://octopress.org/">Octopress</a> is basically a “blogging framework for hackers”. I like that it&rsquo;s <a href="http://en.wikipedia.org/wiki/Open_source">open source</a> and that <a href="http://www.ruby-lang.org/en/">Ruby</a> runs everything in the framework. All you need is your favorite text editor and some command line chops to start posting. Octopress sites are fast, secure, and mobile-friendly. The limitless amount of customization is also a huge bonus that I hope will keep me challenged and engaged in my coding.</p>
+
+<p>If you&rsquo;re interested in making your own Octopress, the <a href="http://octopress.org/docs/setup/">official documentation</a> has a great guide to follow for setting up. It&rsquo;s a step by step walkthrough that shouldn&rsquo;t be a problem for anyone comfortable with Terminal. For the sake of those that aren&rsquo;t satisfied with the Octopress docs, I&rsquo;ll share a simpler step by step guide that covers the initial setup.</p>
+
+<h2>Preparations</h2>
+
+<p>Before we begin installing Octopress, we must make sure that <a href="http://git-scm.com/">Git</a>, <a href="https://rvm.io/">RVM</a>, and Ruby 1.9.3 are up and running.</p>
+
+<p>Open up Terminal and enter:</p>
+
+<pre><code>$ git --version</code></pre>
+
+
+<p>then</p>
+
+<pre><code>$ rvm --version</code></pre>
+
+
+<p>and</p>
+
+<pre><code>$ ruby --version</code></pre>
+
+
+<p></p>
+
+<p>The &mdash;version command will tell you which version of the application is currently installed. If no version is revealed, it must mean that your application is not installed.</p>
+
+<p>If you need an easy guide for installing these tools, I recommend Moncef Belyamani&rsquo;s tutorial: <a href="http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/">How to Install Xcode, Homebrew, Git, RVM, &amp; Ruby 1.9.3 on Snow Leopard &amp; Lion.</a></p>
+
+<h2>Installing Octopress</h2>
+
+<p>Go to the directory where you would like to use Octopress and clone the <a href="https://github.com/imathis/octopress">original repo</a> by inputing the following:</p>
+
+<pre><code>$ git clone git://github.com/imathis/octopress.git octopress </code></pre>
+
+
+<h2>Setting up Octopress</h2>
+
+<p>Once installed, enter the Octopress folder just cloned.</p>
+
+<pre><code>$ cd octopress</code></pre>
+
+
+<p></p>
+
+<p>If RVM is installed, you&rsquo;ll be asked if you trust the .rvmrc file, type yes.</p>
+
+<h2>Installing Dependencies</h2>
+
+<p>Inside the Octopress folder, the following commands must be entered for the <a href="http://gembundler.com/">Bundler gem</a>.</p>
+
+<pre><code>$ gem install bundler</code></pre>
+
+
+
+
+<pre><code>$ bundle install</code></pre>
+
+
+<h2>Installing the Default Octopress Theme</h2>
+
+<p>Finally, to add some styling, enter:</p>
+
+<pre><code>$ rake install</code></pre>
+
+
+<h2>Conclusion</h2>
+
+<p>At this point, we have everything we need to make a blog post, but we still need to deploy our octopress to a host and also make changes the blog configurations to make the site more personalized.  I&rsquo;ll be sure to cover those steps in a future post. I hope this post helps out anyone with an interest in making a new Octopress.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-16T00:00:00-05:00" pubdate data-updated="true">Feb 16<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/octopress/'>octopress</a>
+
+
+</div>
+	
+	<div class="comments"><a href="/blog/2013/02/16/installing-octopress/#disqus_thread">Comments</a></div>
+	
+</div>
+</article>
 
 
     <article class="post">

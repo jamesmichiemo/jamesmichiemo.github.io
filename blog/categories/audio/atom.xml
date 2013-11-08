@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: audio | James Michiemo]]></title>
+  <link href="http://jamesmichiemo.github.io/blog/categories/audio/atom.xml" rel="self"/>
+  <link href="http://jamesmichiemo.github.io/"/>
+  <updated>2013-11-08T11:02:09-05:00</updated>
+  <id>http://jamesmichiemo.github.io/</id>
+  <author>
+    <name><![CDATA[James Michiemo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Leveling Up in ChucK]]></title>
+    <link href="http://jamesmichiemo.github.io/blog/2013/11/08/leveling-up-in-chuck/"/>
+    <updated>2013-11-08T01:43:00-05:00</updated>
+    <id>http://jamesmichiemo.github.io/blog/2013/11/08/leveling-up-in-chuck</id>
+    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119168841"></iframe>
+
+
+<p>I finally put something together with the ChucK programming language that doesn&rsquo;t sound like random noise. <a href="https://gist.github.com/jamesmichiemo/7308629">Enjoy</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
