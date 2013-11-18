@@ -4,7 +4,7 @@
   <title><![CDATA[James Michiemo]]></title>
   <link href="http://jamesmichiemo.github.io/atom.xml" rel="self"/>
   <link href="http://jamesmichiemo.github.io/"/>
-  <updated>2013-11-08T11:02:09-05:00</updated>
+  <updated>2013-11-17T22:47:55-05:00</updated>
   <id>http://jamesmichiemo.github.io/</id>
   <author>
     <name><![CDATA[James Michiemo]]></name>
@@ -14,22 +14,29 @@
 
   
   <entry>
+    
     <title type="html"><![CDATA[Leveling Up in ChucK]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/11/08/leveling-up-in-chuck/"/>
+    
     <updated>2013-11-08T01:43:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/11/08/leveling-up-in-chuck</id>
+    
     <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119168841"></iframe>
 
 
 <p>I finally put something together with the ChucK programming language that doesn&rsquo;t sound like random noise. <a href="https://gist.github.com/jamesmichiemo/7308629">Enjoy</a>.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Installing ChucK on Ubuntu]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu/"/>
+    
     <updated>2013-10-24T16:12:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/10/24/installing-chuck-on-ubuntu</id>
+    
     <content type="html"><![CDATA[<p>Lately, I&rsquo;ve been getting into this thing called &ldquo;live coding&rdquo;. It&rsquo;s an improvisational programming technique used to orchestrate light and sound. I&rsquo;ve watched a few demos of it and I&rsquo;m already hooked on the idea of learning how to do this sort of thing. Currently, I&rsquo;m taking a couple of classes to become better at programming, so I feel like it&rsquo;s the perfect thing to play around with for fun.</p>
 
 <div class="video-container">
@@ -66,13 +73,17 @@
 
 <p>If you have a Mac, rejoice. It&rsquo;s only one click. FML</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Silicon Valley Visits Orlando]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/10/22/linkedin/"/>
+    
     <updated>2013-10-22T23:50:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/10/22/linkedin</id>
+    
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/jxBVhHc.png" alt="Linkedin" /></p>
 
 <p>Today was pretty awesome. Linkedin came to visit my school at Full Sail University and I got the opportunity to meet some of the staff working in their design department. A couple of them happened to be Full Sail alumni from a few years back. They gave an informative presentation over at Full Sail Live showing some of the work that they do over in Silicon Valley. First up was Matt Hackmann, who graduated from Full Sail University&rsquo;s Digital Arts and Design program. His presentation introduced himself and some of the work he does for the Profile Page department at Linkedin. Second was Derek Kohn. He graduated with a degree in Entertainment Business and now works with the Education department at Linkedin. It&rsquo;s really great to see successful working alumni making the effort to give back to their school.</p>
@@ -92,13 +103,17 @@
 
 
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Damage Control]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/10/18/damage-control/"/>
+    
     <updated>2013-10-18T18:16:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/10/18/damage-control</id>
+    
     <content type="html"><![CDATA[<p>My Macbook is dead. I knew this would happen one day, especially at an important time, like now, when I&rsquo;m preparing for an internship interview for Linkedin. It&rsquo;s entirely my fault. I shouldn&rsquo;t have been drinking and typing. It was a sad moment to watch the water from my cup flow right through my keyboard buttons, but it wasn&rsquo;t as painful as it could have been.</p>
 
 <p><img src="http://i.imgur.com/Djnih.gif" alt="sad face" /></p>
@@ -111,13 +126,17 @@
 
 <p>Back up everything.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Focusing on WebGL]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/09/27/focusing-on-webgl/"/>
+    
     <updated>2013-09-27T00:31:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/09/27/focusing-on-webgl</id>
+    
     <content type="html"><![CDATA[<p>Web browsers are increasingly becoming more advanced and have progressed beyond simply displaying hypertext and images. The 3D technology that we&rsquo;ve been enjoying through video games and movies has recently become available through today&rsquo;s modern browsers. For those who aren&rsquo;t familiar, WebGL is the latest HTML5 trend that uses JavaScript to render interactive three-dimensional graphics.</p>
 
 <p><img src="http://cdn4.pitchfork.com/news/50934/96c75f1d.jpg" alt="The original cover art for The Red Wing" /></p>
@@ -128,13 +147,17 @@
 
 <p>What I ended up creating was really basic compared to other WebGL experiments found on the internet, but I&rsquo;m fine with that because I learned something new along the way with something that I&rsquo;m passionate about. I&rsquo;ll never get tired of obsessing over the ways that technology pushes art and vice versa. As technology moves forward, we&rsquo;ll find even more ways to share art with one another. I&rsquo;m really excited to see what the future holds for interactive media.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Vim Adventures: Video Game Review]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review/"/>
+    
     <updated>2013-09-21T19:29:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/09/21/vim-adventures-video-game-review</id>
+    
     <content type="html"><![CDATA[<p><img src="http://imgur.com/CGjCKl9.jpg" alt="The title screen for Vim Adventures" /></p>
 
 <p><a href="http://www.vim.org">Vim</a> is my absolute favorite text editor. I recommend it to anyone who loves using Unix tools. It&rsquo;s a powerful weapon for editing scripts but it isn&rsquo;t for everyone. The main issue that most people have with Vim is that it has a steep learning curve. Performing even a small task like typing a single character is nearly impossible for a beginner to figure out. It&rsquo;s a tool that forces the user to read the manual.</p>
@@ -149,13 +172,17 @@
 
 <p>Vim Adventures is free to try out but expect to pay at least 25 dollars for the full game. For the price, the game is totally worth it. Very few video games teach anything at all, let alone something as difficult as Vim. Don&rsquo;t miss out.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Fatal Conflict: Git vs Dropbox]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox/"/>
+    
     <updated>2013-09-12T11:38:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/09/12/fatal-conflict-github-vs-dropbox</id>
+    
     <content type="html"><![CDATA[<p>So this morning, I ran into a very small problem that had to do with version control. I decided to update a repo that I had been working on for the past few days on another laptop. When I attempted to perform a git pull, I was given an error message that said, &ldquo;fatal: Reference has invalid format: &lsquo;refs/heads/master&rsquo;&rdquo;.</p>
 
 <p>After doing a bit of research I discovered that the problem may have been caused by using both Git and Dropbox at the same time for the same project. Now I&rsquo;ve actually been warned NOT to do this, but I&rsquo;m stubborn about my tools and I figured that if it&rsquo;s been working for me for months, there really shouldn&rsquo;t be any reason why I should do away with my own methods for my own projects.</p>
@@ -176,13 +203,17 @@
 
 <p>This was probably the proof that I needed that Git and Dropbox don&rsquo;t mix well together, but I&rsquo;ll probably still use Dropbox and Git anyway. What else could go wrong?</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Google I/O 2013]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013/"/>
+    
     <updated>2013-05-15T11:00:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/05/15/google-i-slash-o-2013</id>
+    
     <content type="html"><![CDATA[<p>Watch the Google I/O Keynote Live
 May 15-17</p>
 
@@ -191,13 +222,17 @@ May 15-17</p>
 </div>
 
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[War on Privacy]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/04/22/war-on-privacy/"/>
+    
     <updated>2013-04-22T00:21:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/04/22/war-on-privacy</id>
+    
     <content type="html"><![CDATA[<p>Nowadays, information rules the world. Personal data has become THE commodity for many of the enterprises we rely on everyday on the web, and our privacy is rarely ever considered when such data is exchanged. How do we even let such things happen in a world where identity is so important? For that matter, why should we even care what happens to our personal data?</p>
 
 <p><img src="http://www.conservativedailynews.com/wp-content/uploads/2013/02/cispa-passes-house.jpg" alt="CISPA" /></p>
@@ -246,13 +281,17 @@ or the <a href="https://ssd.eff.org/">EFF&rsquo;s Surveillance Self-Defense Proj
 
 <p>Don&rsquo;t wait for permission from authority or beg some higher power to protect your own information. Be proactive!</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Introducing Solavei]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/03/25/introducing-solavei/"/>
+    
     <updated>2013-03-25T15:14:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/03/25/introducing-solavei</id>
+    
     <content type="html"><![CDATA[<p><img src="http://www.funinoklahoma.com/1-%20Global/Solavei/Pics,%20Logos,%20Flyers/Solavei_Logo_4c_notag_600.png" alt="Solavei" /></p>
 
 <p>A few months ago, I learned about a new mobile service called <a href="http://www.solavei.com/omeichim">Solavei</a>. Back then I was looking around for a reasonable unlimited phone plan that didn&rsquo;t involve contracts. At the time, my phone carrier was <a href="http://goredpocket.com">Red Pocket Mobile</a>, which was great but their mobile web data plan costed more and was limited to only 2gigs of data and I wasn&rsquo;t going to sign a contract with another mobile service to be charged for more data usage.</p>
@@ -280,13 +319,17 @@ But you know what? Companies probably make you sign contracts so you won&rsquo;t
 
 
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Post-Startupbus]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/03/17/post-startupbus/"/>
+    
     <updated>2013-03-17T12:01:00-04:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/03/17/post-startupbus</id>
+    
     <content type="html"><![CDATA[<p><a href="http://americas.startupbus.com/">&ldquo;5 days. 6 buses. 30 startups.
 On March 3rd, 152 people set out from 6 cities to build a startup on a bus&hellip;and launch it 1800 miles later in Austin Texas&rdquo;</a></p>
 
@@ -361,13 +404,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Team Thumbtrotter didn&rsquo;t win, but we weren&rsquo;t defeated. We came together to create an awesome app that we believed in and shared it with everyone we knew. StartupBus was only the beginning for us and we understood that more opportunities would present themselves in the future for our startup ventures to grow.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[How to use Octopress: Deployment]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/27/how-to-use-octopress-part-2/"/>
+    
     <updated>2013-02-27T15:39:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/27/how-to-use-octopress-part-2</id>
+    
     <content type="html"><![CDATA[<p>In our last <a href="http://jamesmichiemo.github.com/blog/2013/02/16/installing-octopress/">&ldquo;How to Use Octopress&rdquo;</a> blog post, we went over how to setup our blog, but that was only the first step. The next step would be to make our Octopress available through hosting. Right now, the Octopress we installed is only setup locally. Only users with access to your computer are able to view the blog, but once we have our Octopress available through hosting, anyone with internet access will be able to find it.</p>
 
 <p>For hosting my own blog, I chose to use <a href="http://pages.github.com/">Github pages</a>. There were several other options but I felt better having my blog linked to the same place I keep my other projects on <a href="https://github.com/jamesmichiemo">my Github account</a>. It made sense considering that most of what I&rsquo;ll be writing about on my blog will revolve around these repositories. As I update my repos, I&rsquo;ll be updating my blog.</p>
@@ -411,13 +458,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>We&rsquo;ve only covered the beginning stages, but at least now we have a visible working blog on the web. Next, we&rsquo;ll take a look into posting and making configurations with Octopress.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[StartupBus 2013]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/24/startupbus-2013/"/>
+    
     <updated>2013-02-24T17:30:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/24/startupbus-2013</id>
+    
     <content type="html"><![CDATA[<p>This is gonna be so awesome! Yesterday, I got the news that I&rsquo;ve been accepted to join the <a href="http://startupbus.com/">StartupBus</a> crew for 2013. Once again, I&rsquo;ll be making my pilgrimage over to Austin for <a href="http://sxsw.com/">SxSW</a>. This&rsquo;ll be my 4th trip to the conference, but this time I&rsquo;ll be joining a team to create a startup on our way there.</p>
 
 <p><img src="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2013-02-19/AdxnhkBpnliGDiEJotxhumEodpcFovhuJbaAmwklArkmCzkHyAbCIqoxzDcm/The_Bus.jpg.scaled500.jpg" alt="StartupBus" /></p>
@@ -426,13 +477,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Right now I&rsquo;m really psyched to be a part of this and I&rsquo;m very thankful for this opportunity to collaborate with others to do great things.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Dev Bootcamp: Post-Interview]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/23/dev-bootcamp-post-interview/"/>
+    
     <updated>2013-02-23T12:20:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/23/dev-bootcamp-post-interview</id>
+    
     <content type="html"><![CDATA[<h2>The Decision</h2>
 
 <p>It&rsquo;s disappointing, but the folks at Dev Bootcamp decided that I was not a good fit for the program. I&rsquo;m not completely surprised considering what I had learned of their expectations after the 9 weeks of training.</p>
@@ -459,13 +514,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>What I&rsquo;ve learned is that this isn&rsquo;t going to be an easy career field to get into. It&rsquo;s going to take a lot of work. I&rsquo;m going to have to rely on dedication and perserverance to get what I want out of this.  There&rsquo;ll be plenty of fail along the way, but it&rsquo;s okay because there&rsquo;s more to learn from our failures than from our small successes along the way.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[The Cathode App for Mac]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/22/cathode/"/>
+    
     <updated>2013-02-22T20:20:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/22/cathode</id>
+    
     <content type="html"><![CDATA[<p>For those of you who like to get your hands dirty in the shell, I want to show you a really cool Mac app that&rsquo;s made by <a href="http://www.secretgeometry.com/">Secret Geometry</a>.</p>
 
 <p><img src="http://www.secretgeometry.com/media/screenshot13.jpg" alt="Cathode screens" /></p>
@@ -478,13 +537,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Cathode is free to evaluate but it&rsquo;s $9.99 for the full version. Go ahead and give it a try.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Dev Bootcamp: The Interview]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/19/dev-interview/"/>
+    
     <updated>2013-02-19T10:15:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/19/dev-interview</id>
+    
     <content type="html"><![CDATA[<p>Today was my first Skype interview ever. I was punctual and armed with a pen, pad and a positive attitude. I had an idea of what to expect from reading several other blogs from other Dev Bootcamp candidates, but somehow I was still caught off guard.</p>
 
 <p>Once the Skype tone turned on, I choked. My blank mind struggled to find words to express simple phrases like &ldquo;Hi&rdquo; and &ldquo;How are you?&rdquo; to maintain a decent conversation flow.</p>
@@ -501,13 +564,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>I look forward to the next one.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Creating Snippets]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/19/snippets/"/>
+    
     <updated>2013-02-19T06:50:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/19/snippets</id>
+    
     <content type="html"><![CDATA[<p>Do you find yourself repeatedly looking up the same code and copy/pasting from project to project?</p>
 
 <p>Stop torturing yourself and get a text editor that uses snippets.</p>
@@ -639,13 +706,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Enjoy!</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Studying with Anki Flashcards]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/18/anki/"/>
+    
     <updated>2013-02-18T10:21:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/18/anki</id>
+    
     <content type="html"><![CDATA[<p>Just the other week, I discovered an awesome flashcard app that helps with studying. The app is called <a href="http://ankisrs.net">Anki</a> and the best thing about it is that it&rsquo;s <a href="http://en.m.wikipedia.org/wiki/Cross-platform">cross-platform</a> compatible and <a href="http://en.m.wikipedia.org/wiki/Open_source">open source</a>. It&rsquo;s a great app for retaining anything you have trouble remembering.</p>
 
 <p><img src="http://i.imgur.com/R7kUt3T.png?1" alt="Anki Logo" /></p>
@@ -660,13 +731,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>In my opinion, there isn&rsquo;t a better productivity app out there for studying. Anki is free to download, except for the iPhone app which goes for $24.99. I bought the app full price and it was worth every penny. Try it out.</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Dev Bootcamp]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/17/devboot/"/>
+    
     <updated>2013-02-17T12:34:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/17/devboot</id>
+    
     <content type="html"><![CDATA[<p>Ahhh! Right now I am super nervous about my <a href="http://Skype.com">Skype</a> interview with <a href="http://devbootcamp.com">Dev Bootcamp</a> coming up in a few days. It&rsquo;s a bit intimidating considering their low acceptance rate for applicants.</p>
 
 <p><img src="http://scm-l3.technorati.com/12/12/13/73853/devbootcamp.png?t=20121213131231" alt="Dev Bootcamp logo" /></p>
@@ -683,13 +758,17 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Wish me luck!</p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Using Octopress with Dropbox and Nocs]]></title>
     <link href="http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc/"/>
+    
     <updated>2013-02-17T01:23:00-05:00</updated>
     <id>http://jamesmichiemo.github.io/blog/2013/02/17/noc-noc</id>
+    
     <content type="html"><![CDATA[<p>Inspired by a tip from <a href="http://www.drastudio.com">Oscar Cortez</a>, one of my instructors at <a href="http://www.fullsail.edu">Full Sail University</a>, I decided to host my <a href="http://octopress.org">Octopress</a> locally on <a href="http://www.dropbox.com">Dropbox</a>. I found this setup to be a great idea for editing on mobile devices, because with our repo connected to Dropbox, we are able to make changes to Octopress wherever Dropbox access is available.</p>
 
 <p><img src="http://i.imgur.com/tSVfJ6v.png?1" alt="Octopress in Dropbox" /></p>
@@ -716,6 +795,7 @@ On March 3rd, 152 people set out from 6 cities to build a startup on a bus&helli
 
 <p>Both apps are available for free at the <a href="https://itunes.apple.com/us/genre/ios/id36?mt=8">App Store</a>.</p>
 ]]></content>
+    
   </entry>
   
 </feed>
