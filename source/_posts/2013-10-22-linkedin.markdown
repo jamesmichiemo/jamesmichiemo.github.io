@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Silicon Valley Visits Orlando"
+date: 2013-10-22 23:50
+comments: true
+categories: education design development fullsail 
+---
+
+![Linkedin](http://i.imgur.com/jxBVhHc.png)
+
+Today was pretty awesome. Linkedin came to visit my school at Full Sail University and I got the opportunity to meet some of the staff working in their design department. A couple of them happened to be Full Sail alumni from a few years back. They gave an informative presentation over at Full Sail Live showing some of the work that they do over in Silicon Valley. First up was Matt Hackmann, who graduated from Full Sail University's Digital Arts and Design program. His presentation introduced himself and some of the work he does for the Profile Page department at Linkedin. Second was Derek Kohn. He graduated with a degree in Entertainment Business and now works with the Education department at Linkedin. It's really great to see successful working alumni making the effort to give back to their school. 
+
+I took some notes from their presentations and I found that there was a lot of info that was in common with what we learn at Full Sail in Web Design and Development. As an intro to their working habits, they explained their approach to "user first" design. From what I understood from design class, the user should be the focal point of every web application. I first learned about user interface design patterns from the Web Interface and Usability lectures that I had last year. Those lectures gave me a foundation for learning more about user experience. "User first" makes sense, especially for a brand like Linkedin. Their company is unique in a way because the users themselves are the service, so it's only natural that they cater primarily to their user base. 
+
+The design team at Linkedin also went into code and shared some of the technologies they use in their web apps. I was able to recognize a few things like Sass and node.js but I wasn't familiar with dust.js or injection(?). I'll have to try those out myself some time. They also work a lot with MVC frameworks, like Backbone.js. From what I've seen, Linkedin seems to be in touch with all of the latest trends in web technology. Of course, that's not too surprising for a leading tech company like Linkedin.
+
+I really enjoyed getting to know Linkedin at their presentation and I'm really glad that they took the time to fly over to Orlando to see our school. It's really exciting for me to see how grads have molded their professional careers. I've had my Linkedin account for a few years now, and it's been a great tool for career insight. Having that glimpse into a career field is especially helpful for those students who might not have a clear vision for their future after college. My advice to them would be to get working on their Linkedin profile and start stalking people. 
+
+Do it. Go stalk. There's really no shame.  
+
+<div class="video-container">
+<iframe width="560" height="315" src="//www.youtube.com/embed/YWp6AN00D_c" frameborder="0" allowfullscreen></iframe>
+</div>
+
+  

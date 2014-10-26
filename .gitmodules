@@ -1,0 +1,3 @@
+[submodule ".themes/ji-octopress-theme"]
+	path = .themes/ji-octopress-theme
+  url = https://github.com/ivanjovanovic/ji-octopress-theme.git

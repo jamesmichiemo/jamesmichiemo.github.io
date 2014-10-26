@@ -1,0 +1,20 @@
+---
+layout: post
+title: "The Cathode App for Mac"
+date: 2013-02-22 20:20
+comments: true
+categories: app  
+
+---
+
+For those of you who like to get your hands dirty in the shell, I want to show you a really cool Mac app that's made by [Secret Geometry](http://www.secretgeometry.com/).
+
+![Cathode screens](http://www.secretgeometry.com/media/screenshot13.jpg)
+
+The [Cathode](http://www.secretgeometry.com/apps/cathode/) app is an emulator that runs Terminal in a retro style that closely resembles cathode monitors from the past. It's a fun Terminal alternative for anyone who likes to apply unique themes to their favorite apps. All of the themes that come with Cathode are incredibly detailed and take their authentic looking styles from several different computer eras.
+
+The older crowd will definitely appreciate the app for all the flicker and noise effects that give a nostalgic feel to the Terminal experience. For others, it's a nice to have novelty app that looks like an old school tool for hacking. 
+
+Overall, it's a wonderful app that's stable, reliable, and fun to use. I like to have it open at all times in case I need to use the command line for anything.
+
+Cathode is free to evaluate but it's $9.99 for the full version. Go ahead and give it a try. 

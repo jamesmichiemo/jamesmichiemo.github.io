@@ -1,0 +1,34 @@
+---
+published: true
+layout: post
+title: "Using Octopress with Dropbox and Nocs"
+date: 2013-02-17 01:23
+comments: true
+categories: apps Octopress Markdown mobile
+
+---
+
+Inspired by a tip from [Oscar Cortez](http://www.drastudio.com), one of my instructors at [Full Sail University](http://www.fullsail.edu), I decided to host my [Octopress](http://octopress.org) locally on [Dropbox](http://www.dropbox.com). I found this setup to be a great idea for editing on mobile devices, because with our repo connected to Dropbox, we are able to make changes to Octopress wherever Dropbox access is available.
+
+![Octopress in Dropbox](http://i.imgur.com/tSVfJ6v.png?1)
+
+I'm actually typing this blog post with a text editor on my iPhone. The app that I'm using is called [Nocs](http://www.wisp.com/nocs/). It's a text editor that integrates well with both Dropbox and the [Markdown](http://daringfireball.net/projects/markdown/) format that Octopress uses to publish with.
+
+![Editting with Nocs](http://i.imgur.com/nooAe2Z.png?1)
+
+In the Nocs app, I'm able to navigate and edit the Octopress directory through Dropbox with ease.
+
+![Navigating wit Nocs](http://i.imgur.com/XV1xj25.png?1)
+
+The Dropbox/Nocs combo allows me to write anywhere with my iPhone. Then once my post is ready to go, all I need to do is push my Octopress repo up in [Terminal]("http://en.wikipedia.org/wiki/Terminal_(OS_X)") using 
+
+<pre><code>$ rake generate</code></pre>
+
+and
+
+<pre><code>$ rake deploy</code></pre>
+
+Easy.
+
+Both apps are available for free at the [App Store](https://itunes.apple.com/us/genre/ios/id36?mt=8).
+

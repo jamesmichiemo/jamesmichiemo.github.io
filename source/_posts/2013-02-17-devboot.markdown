@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Dev Bootcamp"
+date: 2013-02-17 12:34
+comments: true
+categories: rails ruby devbootcamp interview
+published: true
+
+---
+
+Ahhh! Right now I am super nervous about my [Skype](http://Skype.com) interview with [Dev Bootcamp](http://devbootcamp.com) coming up in a few days. It's a bit intimidating considering their low acceptance rate for applicants.
+
+![Dev Bootcamp logo](http://scm-l3.technorati.com/12/12/13/73853/devbootcamp.png?t=20121213131231)
+
+[Dev Bootcamp](http://devbootcamp.com) is an intense 9 week training workshop located in San Francisco and Chicago. They take both beginner and experienced programmers, turning them into readily employable [Rails](http://rubyonrails.org) beasts. 
+
+I first found out about DBC from reading a few discussions about the program on [Hacker News](http://news.ycombinator.com/news) and I was impressed with what they had to offer in their curriculum. They cover mainly [Ruby](http://www.ruby-lang.org/en/), [Rails](http://rubyonrails.com), [JavaScript](https://developer.mozilla.org/en-US/docs/JavaScript), and [Agile](http://en.wikipedia.org/wiki/Agile_software_development) methodologies. It's very similar to what I'm learning in [Full Sail's web program](http://www.fullsail.edu/degrees/campus/web-design-development-bachelors) so I'm sure I'll be prepared once I start my training at DBC.
+
+To handle my nerves, I've been pushing myself much harder to learn how to become a Rails developer. My classes at Full Sail University have been a huge help so far and the tips that I've gotten from meetups with [Team Treehouse](http://teamtreehouse.com) and [Code School](http://www.codeschool.com) have been inspiring for me. 
+
+I know this career field is a good fit for me, but I still have my doubts about whether I'll be able to get into Dev Bootcamp. I'm not the best student at school and I barely have enough experience with code to impress anyone familiar with dev subject matter. Right now, I'm just relying on my passion to learn.
+
+All I know for sure is that my path to becoming a Rails developer is going to be long and challenging, but I'll enjoy writing every step of the way.
+
+Wish me luck!
